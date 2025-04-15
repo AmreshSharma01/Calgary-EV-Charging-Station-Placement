@@ -1,0 +1,1043 @@
+"Census Profile, 2021 Census of Population"
+,,,"Calgary, City (CY) [Census subdivision], Alberta",,
+,,,"Counts",,
+"Topic","Characteristic","Note","Total","Total_Flag",
+"Population and dwellings","Population, 2021",1,1306784,"",
+"Population and dwellings","Population, 2016",1,1239220,"",
+"Population and dwellings","Population percentage change, 2016 to 2021",,    5.5,"",
+"Population and dwellings","Total private dwellings",2,531062,"",
+"Population and dwellings","Private dwellings occupied by usual residents",3,502301,"",
+"Population and dwellings","Population density per square kilometre",, 1592.4,"",
+"Population and dwellings","Land area in square kilometres",,  820.62,"",
+"Age characteristics","Total - Age groups of the population - 100% data",,1306780,"",
+"Age characteristics","  0 to 14 years",,235855,"",
+"Age characteristics","    0 to 4 years",, 73840,"",
+"Age characteristics","    5 to 9 years",, 80585,"",
+"Age characteristics","    10 to 14 years",, 81425,"",
+"Age characteristics","  15 to 64 years",,893525,"",
+"Age characteristics","    15 to 19 years",, 73490,"",
+"Age characteristics","    20 to 24 years",, 78365,"",
+"Age characteristics","    25 to 29 years",, 88385,"",
+"Age characteristics","    30 to 34 years",,105960,"",
+"Age characteristics","    35 to 39 years",,110765,"",
+"Age characteristics","    40 to 44 years",,100080,"",
+"Age characteristics","    45 to 49 years",, 91385,"",
+"Age characteristics","    50 to 54 years",, 84725,"",
+"Age characteristics","    55 to 59 years",, 82570,"",
+"Age characteristics","    60 to 64 years",, 77790,"",
+"Age characteristics","  65 years and over",,177405,"",
+"Age characteristics","    65 to 69 years",, 62120,"",
+"Age characteristics","    70 to 74 years",, 46495,"",
+"Age characteristics","    75 to 79 years",, 28965,"",
+"Age characteristics","    80 to 84 years",, 19405,"",
+"Age characteristics","    85 years and over",, 20420,"",
+"Age characteristics","      85 to 89 years",, 12620,"",
+"Age characteristics","      90 to 94 years",,  6225,"",
+"Age characteristics","      95 to 99 years",,  1375,"",
+"Age characteristics","      100 years and over",,   195,"",
+"Age characteristics","Total - Distribution (%) of the population by broad age groups - 100% data",,  100.0,"",
+"Age characteristics","  0 to 14 years",,   18.0,"",
+"Age characteristics","  15 to 64 years",,   68.4,"",
+"Age characteristics","  65 years and over",,   13.6,"",
+"Age characteristics","    85 years and over",,    1.6,"",
+"Age characteristics","Average age of the population",,   38.8,"",
+"Age characteristics","Median age of the population",,   38.0,"",
+"Household and dwelling characteristics","Total - Occupied private dwellings by structural type of dwelling - 100% data",,502300,"",
+"Household and dwelling characteristics","  Single-detached house",,276050,"",
+"Household and dwelling characteristics","  Semi-detached house",, 31660,"",
+"Household and dwelling characteristics","  Row house",, 48860,"",
+"Household and dwelling characteristics","  Apartment or flat in a duplex",, 21165,"",
+"Household and dwelling characteristics","  Apartment in a building that has fewer than five storeys",, 81870,"",
+"Household and dwelling characteristics","  Apartment in a building that has five or more storeys",, 40700,"",
+"Household and dwelling characteristics","  Other single-attached house",,   200,"",
+"Household and dwelling characteristics","  Movable dwelling",4,  1790,"",
+"Household and dwelling characteristics","Total - Private households by household size - 100% data",,502305,"",
+"Household and dwelling characteristics","  1 person",,132695,"",
+"Household and dwelling characteristics","  2 persons",,159955,"",
+"Household and dwelling characteristics","  3 persons",, 80020,"",
+"Household and dwelling characteristics","  4 persons",, 79565,"",
+"Household and dwelling characteristics","  5 or more persons",, 50070,"",
+"Household and dwelling characteristics","Number of persons in private households",,1291770,"",
+"Household and dwelling characteristics","Average household size",,    2.6,"",
+"Family characteristics","Total - Census families in private households by family size - 100% data",5,356225,"",
+"Family characteristics","  2 persons",,164970,"",
+"Family characteristics","  3 persons",, 78740,"",
+"Family characteristics","  4 persons",, 79565,"",
+"Family characteristics","  5 or more persons",, 32950,"",
+"Family characteristics","Average size of census families",,    3.0,"",
+"Family characteristics","Average number of children in census families with children",6,    1.8,"",
+"Family characteristics","Total number of census families in private households - 100% data",,356220,"",
+"Family characteristics","  Total couple families",,304050,"",
+"Family characteristics","    Married couples",,256225,"",
+"Family characteristics","      With children",6,155795,"",
+"Family characteristics","      Without children",,100430,"",
+"Family characteristics","    Common-law couples",, 47830,"",
+"Family characteristics","      With children",6, 14805,"",
+"Family characteristics","      Without children",, 33020,"",
+"Family characteristics","  Total one-parent families",, 52170,"",
+"Family characteristics","    in which the parent is a woman+",, 40670,"",
+"Family characteristics","    in which the parent is a man+",, 11505,"",
+"Family characteristics","Total - Persons in private households - 100% data",,1291770,"",
+"Family characteristics","  Total - Persons in census families",,1060650,"",
+"Family characteristics","    Married spouses or common-law partners",,608110,"",
+"Family characteristics","    Parents in one-parent families",, 52170,"",
+"Family characteristics","    Children",6,400375,"",
+"Family characteristics","      In a two-parent family",,319875,"",
+"Family characteristics","      In a one-parent family",, 80495,"",
+"Family characteristics","  Total - Persons not in census families in private households - 100% data",,231120,"",
+"Family characteristics","    Living alone",,132690,"",
+"Family characteristics","    Living with other relatives",7, 34850,"",
+"Family characteristics","    Living with non-relatives only",, 63575,"",
+"Household type","Total - Household type - 100% data",,502300,"",
+"Household type","  One-census-family households without additional persons",,302280,"",
+"Household type","    Couple-family households",,262950,"",
+"Household type","      With children",6,147735,"",
+"Household type","      Without children",,115220,"",
+"Household type","    One-parent-family households",, 39325,"",
+"Household type","  Multigenerational households",8, 17040,"",
+"Household type","  Multiple-census-family households",9,  4035,"",
+"Household type","  One-census-family households with additional persons",9, 18975,"",
+"Household type","  Two-or-more-person non-census-family households ",, 27275,"",
+"Household type","  One-person households",,132690,"",
+"Income of households in 2020","Total - Income statistics for private households - 100% data",26,502305,"",
+"Income of households in 2020","  Median total income of household in 2020 ($)",, 98000,"",
+"Income of households in 2020","  Median after-tax income of household in 2020 ($)",, 85000,"",
+"Income of households in 2020","    Total - Income statistics for one-person private households - 100% data",,132690,"",
+"Income of households in 2020","      Median total income of one-person households in 2020 ($)",, 50000,"",
+"Income of households in 2020","      Median after-tax income of one-person households in 2020 ($)",, 44000,"",
+"Income of households in 2020","    Total - Income statistics for two-or-more-persons private households - 100% data",,369610,"",
+"Income of households in 2020","      Median total income of two-or-more-person households in 2020 ($)",,119000,"",
+"Income of households in 2020","      Median after-tax income of two-or-more-person households in 2020 ($)",,103000,"",
+"Income of households in 2020","Total - Income statistics for private households - 25% sample data",27,502305,"",
+"Income of households in 2020","  Average total income of household in 2020 ($)",,129000,"",
+"Income of households in 2020","  Average after-tax income of household in 2020 ($)",,104900,"",
+"Income of households in 2020","    Total - Income statistics for one-person private households - 25% sample data",,132725,"",
+"Income of households in 2020","      Average total income of one-person households in 2020 ($)",, 67900,"",
+"Income of households in 2020","      Average after-tax income of one-person households in 2020 ($)",, 55300,"",
+"Income of households in 2020","    Total - Income statistics for two-or-more-persons private households - 25% sample data",,369575,"",
+"Income of households in 2020","      Average total income of two-or-more-person households in 2020 ($)",,151000,"",
+"Income of households in 2020","      Average after-tax income of two-or-more-person households in 2020 ($)",,122700,"",
+"Income of households in 2020","Total - Household total income groups in 2020 for private households - 100% data",21,502305,"",
+"Income of households in 2020","  Under $5,000",,  5975,"",
+"Income of households in 2020","  $5,000 to $9,999",,  2895,"",
+"Income of households in 2020","  $10,000 to $14,999",,  3930,"",
+"Income of households in 2020","  $15,000 to $19,999",,  5410,"",
+"Income of households in 2020","  $20,000 to $24,999",, 14160,"",
+"Income of households in 2020","  $25,000 to $29,999",, 14505,"",
+"Income of households in 2020","  $30,000 to $34,999",, 12430,"",
+"Income of households in 2020","  $35,000 to $39,999",, 14120,"",
+"Income of households in 2020","  $40,000 to $44,999",, 15160,"",
+"Income of households in 2020","  $45,000 to $49,999",, 15195,"",
+"Income of households in 2020","  $50,000 to $59,999",, 30875,"",
+"Income of households in 2020","  $60,000 to $69,999",, 31950,"",
+"Income of households in 2020","  $70,000 to $79,999",, 31405,"",
+"Income of households in 2020","  $80,000 to $89,999",, 29885,"",
+"Income of households in 2020","  $90,000 to $99,999",, 28640,"",
+"Income of households in 2020","  $100,000 and over",,245760,"",
+"Income of households in 2020","    $100,000 to $124,999",, 61565,"",
+"Income of households in 2020","    $125,000 to $149,999",, 47245,"",
+"Income of households in 2020","    $150,000 to $199,999",, 61440,"",
+"Income of households in 2020","    $200,000 and over",, 75515,"",
+"Income of households in 2020","Total - Household after-tax income groups in 2020 for private households - 100% data",22,502305,"",
+"Income of households in 2020","  Under $5,000",,  6665,"",
+"Income of households in 2020","  $5,000 to $9,999",,  2985,"",
+"Income of households in 2020","  $10,000 to $14,999",,  4035,"",
+"Income of households in 2020","  $15,000 to $19,999",,  5855,"",
+"Income of households in 2020","  $20,000 to $24,999",, 15290,"",
+"Income of households in 2020","  $25,000 to $29,999",, 16415,"",
+"Income of households in 2020","  $30,000 to $34,999",, 14475,"",
+"Income of households in 2020","  $35,000 to $39,999",, 16635,"",
+"Income of households in 2020","  $40,000 to $44,999",, 18230,"",
+"Income of households in 2020","  $45,000 to $49,999",, 18030,"",
+"Income of households in 2020","  $50,000 to $59,999",, 37875,"",
+"Income of households in 2020","  $60,000 to $69,999",, 38390,"",
+"Income of households in 2020","  $70,000 to $79,999",, 36910,"",
+"Income of households in 2020","  $80,000 to $89,999",, 35205,"",
+"Income of households in 2020","  $90,000 to $99,999",, 31690,"",
+"Income of households in 2020","  $100,000 and over",,203605,"",
+"Income of households in 2020","    $100,000 to $124,999",, 64210,"",
+"Income of households in 2020","    $125,000 to $149,999",, 45680,"",
+"Income of households in 2020","    $150,000 and over",, 93720,"",
+"Low income and income inequality in 2020","Total - LIM low-income status in 2020 for the population in private households - 100% data",33,1291770,"",
+"Low income and income inequality in 2020","  0 to 17 years",,279980,"",
+"Low income and income inequality in 2020","    0 to 5 years",, 90035,"",
+"Low income and income inequality in 2020","  18 to 64 years",,844490,"",
+"Low income and income inequality in 2020","  65 years and over",,167305,"",
+"Low income and income inequality in 2020","In low income based on the Low-income measure, after tax (LIM-AT)",,115560,"",
+"Low income and income inequality in 2020","  0 to 17 years",, 30045,"",
+"Low income and income inequality in 2020","    0 to 5 years",,  9980,"",
+"Low income and income inequality in 2020","  18 to 64 years",, 68060,"",
+"Low income and income inequality in 2020","  65 years and over",, 17455,"",
+"Low income and income inequality in 2020","Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)",,    9.0,"",
+"Low income and income inequality in 2020","  0 to 17 years (%)",,   10.7,"",
+"Low income and income inequality in 2020","    0 to 5 years (%)",,   11.1,"",
+"Low income and income inequality in 2020","  18 to 64 years (%)",,    8.1,"",
+"Low income and income inequality in 2020","  65 years and over (%)",,   10.4,"",
+"Low income and income inequality in 2020","Total - LICO low-income status in 2020 for the population in private households to whom the low-income concept is applicable - 100% data",33,1291770,"",
+"Low income and income inequality in 2020","  0 to 17 years",,279975,"",
+"Low income and income inequality in 2020","    0 to 5 years",, 90035,"",
+"Low income and income inequality in 2020","  18 to 64 years",,844490,"",
+"Low income and income inequality in 2020","  65 years and over",,167305,"",
+"Low income and income inequality in 2020","In low income based on the Low-income cut-offs, after tax (LICO-AT)",, 74755,"",
+"Low income and income inequality in 2020","  0 to 17 years",, 16260,"",
+"Low income and income inequality in 2020","    0 to 5 years",,  5165,"",
+"Low income and income inequality in 2020","  18 to 64 years",, 52615,"",
+"Low income and income inequality in 2020","  65 years and over",,  5885,"",
+"Low income and income inequality in 2020","Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)",,    5.8,"",
+"Low income and income inequality in 2020","  0 to 17 years (%)",,    5.8,"",
+"Low income and income inequality in 2020","    0 to 5 years (%)",,    5.7,"",
+"Low income and income inequality in 2020","  18 to 64 years (%)",,    6.2,"",
+"Low income and income inequality in 2020","  65 years and over (%)",,    3.5,"",
+"Low income and income inequality in 2020","Total - Adjusted after-tax economic family income decile group for the population in private households - 100% data",34,1291770,"",
+"Low income and income inequality in 2020","  In bottom half of the distribution",,567165,"",
+"Low income and income inequality in 2020","    In bottom decile",,107675,"",
+"Low income and income inequality in 2020","    In second decile",,113610,"",
+"Low income and income inequality in 2020","    In third decile",,112705,"",
+"Low income and income inequality in 2020","    In fourth decile",,115075,"",
+"Low income and income inequality in 2020","    In fifth decile",,118100,"",
+"Low income and income inequality in 2020","  In top half of the distribution",,724605,"",
+"Low income and income inequality in 2020","    In sixth decile",,122380,"",
+"Low income and income inequality in 2020","    In seventh decile",,125895,"",
+"Low income and income inequality in 2020","    In eighth decile",,132170,"",
+"Low income and income inequality in 2020","    In ninth decile",,145410,"",
+"Low income and income inequality in 2020","    In top decile",,198750,"",
+"Low income and income inequality in 2020","Total - Inequality measures for the population in private households - 100% data",35,1291770,"",
+"Low income and income inequality in 2020","  Gini index on adjusted household total income",,    0.376,"",
+"Low income and income inequality in 2020","  Gini index on adjusted household market income",,    0.471,"",
+"Low income and income inequality in 2020","  Gini index on adjusted household after-tax income",,    0.327,"",
+"Low income and income inequality in 2020","  P90/P10 ratio on adjusted household after-tax income",,    4.1,"",
+"Household characteristics","Total - Private households by tenure - 25% sample data",50,502305,"",
+"Household characteristics","  Owner",,345690,"",
+"Household characteristics","  Renter",,156615,"",
+"Household characteristics","  Dwelling provided by the local government, First Nation or Indian band",,     0,"",
+"Household characteristics","Total - Occupied private dwellings by condominium status - 25% sample data",51,502305,"",
+"Household characteristics","  Condominium",,124190,"",
+"Household characteristics","  Not condominium",,378115,"",
+"Household characteristics","Total - Occupied private dwellings by number of bedrooms - 25% sample data",52,502305,"",
+"Household characteristics","  No bedrooms",,  2920,"",
+"Household characteristics","  1 bedroom",, 59385,"",
+"Household characteristics","  2 bedrooms",,116625,"",
+"Household characteristics","  3 bedrooms",,167895,"",
+"Household characteristics","  4 or more bedrooms",,155480,"",
+"Household characteristics","Total - Occupied private dwellings by number of rooms - 25% sample data",53,502305,"",
+"Household characteristics","  1 to 4 rooms",,153485,"",
+"Household characteristics","  5 rooms",, 78585,"",
+"Household characteristics","  6 rooms",, 69385,"",
+"Household characteristics","  7 rooms",, 59530,"",
+"Household characteristics","  8 or more rooms",,141320,"",
+"Household characteristics","Average number of rooms per dwelling",,    6.1,"",
+"Household characteristics","Total - Private households by number of persons per room - 25% sample data",54,502305,"",
+"Household characteristics","  One person or fewer per room",,486420,"",
+"Household characteristics","  More than one person per room",, 15885,"",
+"Household characteristics","Total - Private households by housing suitability - 25% sample data",55,502305,"",
+"Household characteristics","  Suitable",,476790,"",
+"Household characteristics","  Not suitable",, 25515,"",
+"Household characteristics","Total - Occupied private dwellings by period of construction - 25% sample data",56,502305,"",
+"Household characteristics","  1960 or before",, 43855,"",
+"Household characteristics","  1961 to 1980",,133035,"",
+"Household characteristics","  1981 to 1990",, 59780,"",
+"Household characteristics","  1991 to 2000",, 75685,"",
+"Household characteristics","  2001 to 2005",, 50390,"",
+"Household characteristics","  2006 to 2010",, 47665,"",
+"Household characteristics","  2011 to 2015",, 45850,"",
+"Household characteristics","  2016 to 2021",57, 46045,"",
+"Household characteristics","Total - Occupied private dwellings by dwelling condition - 25% sample data",58,502305,"",
+"Household characteristics","  Only regular maintenance and minor repairs needed",,479525,"",
+"Household characteristics","  Major repairs needed",, 22780,"",
+"Household characteristics","Total - Private households by number of household maintainers - 25% sample data",59,502305,"",
+"Household characteristics","  One-maintainer household",,242815,"",
+"Household characteristics","  Two-maintainer household",,228860,"",
+"Household characteristics","  Three-or-more-maintainer household",, 30630,"",
+"Household characteristics","Total - Private households by age of primary household maintainers - 25% sample data",60,502305,"",
+"Household characteristics","  15 to 24 years",, 13825,"",
+"Household characteristics","  25 to 34 years",, 83280,"",
+"Household characteristics","  35 to 44 years",,110705,"",
+"Household characteristics","  45 to 54 years",,100130,"",
+"Household characteristics","  55 to 64 years",, 93305,"",
+"Household characteristics","  65 to 74 years",, 62865,"",
+"Household characteristics","  75 to 84 years",, 27860,"",
+"Household characteristics","  85 years and over",, 10340,"",
+"Household characteristics","Total - Owner and tenant households with household total income greater than zero, in non-farm, non-reserve private dwellings by shelter-cost-to-income ratio - 25% sample data",61,499855,"",
+"Household characteristics","  Spending less than 30% of income on shelter costs",,385380,"",
+"Household characteristics","  Spending 30% or more of income on shelter costs",,114470,"",
+"Household characteristics","    30% to less than 100%",,102665,"",
+"Household characteristics","Total - Occupied private dwellings by housing indicators - 25% sample data",62,502305,"",
+"Household characteristics","  Total - Households 'spending 30% or more of income on shelter costs' or 'not suitable' or 'major repairs needed'",,150520,"",
+"Household characteristics","    Spending 30% or more of income on shelter costs only",,103650,"",
+"Household characteristics","    Not suitable only",, 19875,"",
+"Household characteristics","    Major repairs needed only",, 14995,"",
+"Household characteristics","    'Spending 30% or more of income on shelter costs' and 'not suitable'",,  4215,"",
+"Household characteristics","    'Spending 30% or more of income on shelter costs' and 'major repairs needed'",,  6360,"",
+"Household characteristics","    'Not suitable' and 'major repairs needed'",,  1170,"",
+"Household characteristics","    'Spending 30% or more of income on shelter costs' and 'not suitable' and 'major repairs needed'",,   250,"",
+"Household characteristics","  Acceptable housing",,351785,"",
+"Household characteristics","Total - Owner and tenant households with household total income greater than zero and shelter-cost-to-income ratio less than 100%, in non-farm, non-reserve private dwellings - 25% sample data",63,488040,"",
+"Household characteristics","  In core need",, 49860,"",
+"Household characteristics","  Not in core need",,438185,"",
+"Household characteristics","Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data",,345680,"",
+"Household characteristics","  % of owner households with a mortgage",64,   65.2,"",
+"Household characteristics","  % of owner households spending 30% or more of its income on shelter costs",61,   17.7,"",
+"Household characteristics","  % in core housing need",63,    5.6,"",
+"Household characteristics","  Median monthly shelter costs for owned dwellings ($)",65,  1720,"",
+"Household characteristics","  Average monthly shelter costs for owned dwellings ($)",65,  1774,"",
+"Household characteristics","  Median value of dwellings ($)",66,456000,"",
+"Household characteristics","  Average value of dwellings ($)",66,519500,"",
+"Household characteristics","Total - Tenant households in non-farm, non-reserve private dwellings - 25% sample data",,156615,"",
+"Household characteristics","  % of tenant households in subsidized housing",67,    9.0,"",
+"Household characteristics","  % of tenant households spending 30% or more of its income on shelter costs",61,   34.4,"",
+"Household characteristics","  % in core housing need",63,   20.6,"",
+"Household characteristics","  Median monthly shelter costs for rented dwellings ($)",65,  1350,"",
+"Household characteristics","  Average monthly shelter costs for rented dwellings ($)",65,  1404,"",
+"Household characteristics","Total - Households living in a dwelling provided by the local government, First Nation or Indian band in non-farm private dwellings - 25% sample data",,     0,"",
+"Household characteristics","  % of households living in a dwelling provided by the local government, First Nation or Indian band spending more than 30% on shelter costs",61,,"...",
+"Household characteristics","  Median monthly shelter costs for dwellings provided by local government, First Nation or Indian band ($)",65,,"...",
+"Household characteristics","  Average monthly shelter costs for dwellings provided by local government, First Nation or Indian band ($)",65,,"...",
+"Immigrant status and period of immigration","Total - Immigrant status and period of immigration for the population in private households - 25% sample data",79,1291770,"",
+"Immigrant status and period of immigration","  Non-immigrants",80,834100,"",
+"Immigrant status and period of immigration","  Immigrants",81,430640,"",
+"Immigrant status and period of immigration","    Before 1980",, 48430,"",
+"Immigrant status and period of immigration","    1980 to 1990",, 40330,"",
+"Immigrant status and period of immigration","    1991 to 2000",, 61465,"",
+"Immigrant status and period of immigration","    2001 to 2010",,117055,"",
+"Immigrant status and period of immigration","    2011 to 2021",82,163365,"",
+"Immigrant status and period of immigration","      2011 to 2015",, 82050,"",
+"Immigrant status and period of immigration","      2016 to 2021",, 81315,"",
+"Immigrant status and period of immigration","  Non-permanent residents",83, 27025,"",
+"Generation status","Total - Generation status for the population in private households - 25% sample data",99,1291770,"",
+"Generation status","  First generation",100,471470,"",
+"Generation status","  Second generation",101,281465,"",
+"Generation status","  Third generation or more",102,538830,"",
+"Visible minority","Total - Visible minority for the population in private households - 25% sample data",117,1291770,"",
+"Visible minority","  Total visible minority population",118,534695,"",
+"Visible minority","    South Asian",,141660,"",
+"Visible minority","    Chinese",, 91410,"",
+"Visible minority","    Black",, 70680,"",
+"Visible minority","    Filipino",, 84215,"",
+"Visible minority","    Arab",, 30735,"",
+"Visible minority","    Latin American",, 31855,"",
+"Visible minority","    Southeast Asian",, 26395,"",
+"Visible minority","    West Asian",, 15150,"",
+"Visible minority","    Korean",, 12380,"",
+"Visible minority","    Japanese",,  5825,"",
+"Visible minority","    Visible minority, n.i.e.",119,  5445,"",
+"Visible minority","    Multiple visible minorities",, 18955,"",
+"Visible minority","  Not a visible minority",120,757075,"",
+"Ethnic or cultural origin","Total - Ethnic or cultural origin for the population in private households - 25% sample data",121,1291770,"",
+"Ethnic or cultural origin","  Canadian",,125490,"",
+"Ethnic or cultural origin","  English",,205980,"",
+"Ethnic or cultural origin","  Irish",,153865,"",
+"Ethnic or cultural origin","  Scottish",,177490,"",
+"Ethnic or cultural origin","  French, n.o.s.",122, 79635,"",
+"Ethnic or cultural origin","  German",,146970,"",
+"Ethnic or cultural origin","  Chinese",, 96180,"",
+"Ethnic or cultural origin","  Italian",, 36235,"",
+"Ethnic or cultural origin","  Indian (India)",, 71115,"",
+"Ethnic or cultural origin","  Ukrainian",, 69030,"",
+"Ethnic or cultural origin","  Dutch",, 38505,"",
+"Ethnic or cultural origin","  Polish",, 42735,"",
+"Ethnic or cultural origin","  Québécois",,  1580,"",
+"Ethnic or cultural origin","  British Isles, n.o.s.",123, 41520,"",
+"Ethnic or cultural origin","  Filipino",, 79200,"",
+"Ethnic or cultural origin","  French Canadian",,  9130,"",
+"Ethnic or cultural origin","  Caucasian (White), n.o.s.",124, 20860,"",
+"Ethnic or cultural origin","  First Nations (North American Indian), n.o.s.",125, 12415,"",
+"Ethnic or cultural origin","  Métis",, 19805,"",
+"Ethnic or cultural origin","  European, n.o.s.",126, 22790,"",
+"Ethnic or cultural origin","  Russian",, 28470,"",
+"Ethnic or cultural origin","  Norwegian",, 32675,"",
+"Ethnic or cultural origin","  Welsh",, 21030,"",
+"Ethnic or cultural origin","  Portuguese",,  6770,"",
+"Ethnic or cultural origin","  American",, 18030,"",
+"Ethnic or cultural origin","  Spanish",, 17085,"",
+"Ethnic or cultural origin","  Swedish",, 20940,"",
+"Ethnic or cultural origin","  Hungarian",, 16335,"",
+"Ethnic or cultural origin","  Acadian",,  2935,"",
+"Ethnic or cultural origin","  Pakistani",, 22800,"",
+"Ethnic or cultural origin","  African, n.o.s.",127, 13470,"",
+"Ethnic or cultural origin","  Jewish",,  6595,"",
+"Ethnic or cultural origin","  Punjabi",, 18050,"",
+"Ethnic or cultural origin","  Vietnamese",, 21145,"",
+"Ethnic or cultural origin","  Arab, n.o.s.",128, 10585,"",
+"Ethnic or cultural origin","  Greek",,  5540,"",
+"Ethnic or cultural origin","  Jamaican",,  5860,"",
+"Ethnic or cultural origin","  Asian, n.o.s.",129, 14510,"",
+"Ethnic or cultural origin","  Cree, n.o.s.",130,  5915,"",
+"Ethnic or cultural origin","  Korean",, 12445,"",
+"Ethnic or cultural origin","  Romanian",, 10540,"",
+"Ethnic or cultural origin","  Lebanese",, 11360,"",
+"Ethnic or cultural origin","  Iranian",,  6105,"",
+"Ethnic or cultural origin","  Christian, n.i.e.",131,  4815,"",
+"Ethnic or cultural origin","  Danish",, 14575,"",
+"Ethnic or cultural origin","  North American Indigenous, n.o.s.",132,  4225,"",
+"Ethnic or cultural origin","  Sikh",, 14120,"",
+"Ethnic or cultural origin","  Austrian",, 10255,"",
+"Ethnic or cultural origin","  Belgian",,  5295,"",
+"Ethnic or cultural origin","  Haitian",,   930,"",
+"Ethnic or cultural origin","  Hindu",,  8550,"",
+"Ethnic or cultural origin","  Mexican",,  7685,"",
+"Ethnic or cultural origin","  Mennonite",,  3750,"",
+"Ethnic or cultural origin","  Swiss",,  5765,"",
+"Ethnic or cultural origin","  Finnish",,  5250,"",
+"Ethnic or cultural origin","  Sri Lankan",,  1865,"",
+"Ethnic or cultural origin","  Croatian",,  5170,"",
+"Ethnic or cultural origin","  Japanese",,  7785,"",
+"Ethnic or cultural origin","  South Asian, n.o.s.",133,  4655,"",
+"Ethnic or cultural origin","  Mi'kmaq, n.o.s.",134,  1330,"",
+"Ethnic or cultural origin","  Northern European, n.o.s.",135,  6340,"",
+"Ethnic or cultural origin","  Muslim",,  6060,"",
+"Ethnic or cultural origin","  Egyptian",,  4610,"",
+"Ethnic or cultural origin","  Latin, Central or South American, n.o.s.",136,  5960,"",
+"Ethnic or cultural origin","  Tamil",,  1370,"",
+"Ethnic or cultural origin","  Icelandic",,  6025,"",
+"Ethnic or cultural origin","  Colombian",,  6420,"",
+"Ethnic or cultural origin","  Moroccan",,   880,"",
+"Ethnic or cultural origin","  Czech",,  6295,"",
+"Ethnic or cultural origin","  Syrian",,  4215,"",
+"Ethnic or cultural origin","  Guyanese",,  1210,"",
+"Ethnic or cultural origin","  Afghan",,  6465,"",
+"Ethnic or cultural origin","  Black, n.o.s.",137,  2530,"",
+"Ethnic or cultural origin","  Serbian",,  3125,"",
+"Ethnic or cultural origin","  Ojibway",,  1165,"",
+"Ethnic or cultural origin","  Newfoundlander",,  1500,"",
+"Ethnic or cultural origin","  Hong Konger",,  3940,"",
+"Ethnic or cultural origin","  Ontarian",,  1030,"",
+"Ethnic or cultural origin","  Persian",,  2700,"",
+"Ethnic or cultural origin","  Trinidadian/Tobagonian",,  1495,"",
+"Ethnic or cultural origin","  Turkish",,  2610,"",
+"Ethnic or cultural origin","  Inuit, n.o.s.",138,   520,"",
+"Ethnic or cultural origin","  Bangladeshi",,  3570,"",
+"Ethnic or cultural origin","  Algerian",,   645,"",
+"Ethnic or cultural origin","  Brazilian",,  2555,"",
+"Ethnic or cultural origin","  Nigerian",,  8120,"",
+"Ethnic or cultural origin","  Armenian",,   925,"",
+"Ethnic or cultural origin","  Slovak",,  3520,"",
+"Ethnic or cultural origin","  Eastern European, n.o.s.",139,  2620,"",
+"Ethnic or cultural origin","  Somali",,  2830,"",
+"Ethnic or cultural origin","  Taiwanese",,  2120,"",
+"Ethnic or cultural origin","  Iraqi",,  3035,"",
+"Ethnic or cultural origin","  Salvadorean",,  2325,"",
+"Ethnic or cultural origin","  African Caribbean",,   930,"",
+"Ethnic or cultural origin","  East or Southeast Asian, n.o.s.",140,  3670,"",
+"Ethnic or cultural origin","  West or Central Asian or Middle Eastern, n.o.s.",141,  2645,"",
+"Ethnic or cultural origin","  Caribbean, n.o.s.",142,  1330,"",
+"Ethnic or cultural origin","  Algonquin",,   380,"",
+"Ethnic or cultural origin","  West Indian, n.o.s.",143,   835,"",
+"Ethnic or cultural origin","  Lithuanian",,  2015,"",
+"Ethnic or cultural origin","  South African",,  2915,"",
+"Ethnic or cultural origin","  Australian",,  3060,"",
+"Ethnic or cultural origin","  Palestinian",,  1675,"",
+"Ethnic or cultural origin","  Chilean",,  2925,"",
+"Ethnic or cultural origin","  Congolese",,  1045,"",
+"Ethnic or cultural origin","  Nova Scotian",,   850,"",
+"Ethnic or cultural origin","  Ethiopian",,  6695,"",
+"Ethnic or cultural origin","  Hispanic, n.o.s.",144,  2920,"",
+"Ethnic or cultural origin","  Peruvian",,  1450,"",
+"Ethnic or cultural origin","  Yoruba",,  5200,"",
+"Ethnic or cultural origin","  Cambodian (Khmer)",,  1960,"",
+"Ethnic or cultural origin","  Berber",,   405,"",
+"Ethnic or cultural origin","  Albanian",,  1870,"",
+"Ethnic or cultural origin","  Maltese",,   505,"",
+"Ethnic or cultural origin","  Macedonian",,   385,"",
+"Ethnic or cultural origin","  Slovenian",,  1445,"",
+"Ethnic or cultural origin","  Western European, n.o.s.",145,  1960,"",
+"Ethnic or cultural origin","  New Brunswicker",,   410,"",
+"Ethnic or cultural origin","  Gujarati",,  1665,"",
+"Ethnic or cultural origin","  Eritrean",,  5320,"",
+"Ethnic or cultural origin","  African Canadian",,   940,"",
+"Ethnic or cultural origin","  Israeli",,  1095,"",
+"Ethnic or cultural origin","  Mohawk",,   500,"",
+"Ethnic or cultural origin","  Czechoslovakian, n.o.s.",146,  1685,"",
+"Ethnic or cultural origin","  Bulgarian",,  1305,"",
+"Ethnic or cultural origin","  Albertan",,  5465,"",
+"Ethnic or cultural origin","  Ghanaian",,  1405,"",
+"Ethnic or cultural origin","  Barbadian",,   640,"",
+"Ethnic or cultural origin","  African American",,   935,"",
+"Ethnic or cultural origin","  Yugoslavian, n.o.s.",147,  1030,"",
+"Ethnic or cultural origin","  Tunisian",,   300,"",
+"Ethnic or cultural origin","  Slavic, n.o.s.",148,  1305,"",
+"Ethnic or cultural origin","  Cuban",,   830,"",
+"Ethnic or cultural origin","  Bosnian",,  1870,"",
+"Ethnic or cultural origin","  Venezuelan",,  3025,"",
+"Ethnic or cultural origin","  Innu/Montagnais, n.o.s.",149,    30,"",
+"Ethnic or cultural origin","  Latvian",,  1025,"",
+"Ethnic or cultural origin","  Bengali",,  1200,"",
+"Ethnic or cultural origin","  Cameroonian",,   930,"",
+"Ethnic or cultural origin","  Guatemalan",,  1200,"",
+"Ethnic or cultural origin","  Indonesian",,  1555,"",
+"Ethnic or cultural origin","  Laotian",,  1015,"",
+"Ethnic or cultural origin","  Ilocano",,  2575,"",
+"Ethnic or cultural origin","  Northern Irish",,   920,"",
+"Ethnic or cultural origin","  Celtic, n.o.s.",150,   805,"",
+"Ethnic or cultural origin","  British Columbian",,   520,"",
+"Ethnic or cultural origin","  Ecuadorian",,   405,"",
+"Ethnic or cultural origin","  Franco Ontarian",,   125,"",
+"Ethnic or cultural origin","  Argentinian",,  1050,"",
+"Ethnic or cultural origin","  Estonian",,   980,"",
+"Ethnic or cultural origin","  Kurdish",,  1060,"",
+"Ethnic or cultural origin","  Fijian",,  1145,"",
+"Ethnic or cultural origin","  Jatt",,  1410,"",
+"Ethnic or cultural origin","  North American, n.o.s.",151,   645,"",
+"Ethnic or cultural origin","  Coptic",,   440,"",
+"Ethnic or cultural origin","  Thai",,  1185,"",
+"Ethnic or cultural origin","  Dominican",,   405,"",
+"Ethnic or cultural origin","  Nepali",,  2255,"",
+"Ethnic or cultural origin","  Kabyle",,    95,"",
+"Ethnic or cultural origin","  Assyrian",,   420,"",
+"Ethnic or cultural origin","  Igbo",,  3150,"",
+"Ethnic or cultural origin","  Byelorussian",,   730,"",
+"Ethnic or cultural origin","  Dene, n.o.s.",152,   215,"",
+"Ethnic or cultural origin","  Blackfoot, n.o.s.",153,  1580,"",
+"Ethnic or cultural origin","  Abenaki",,    50,"",
+"Ethnic or cultural origin","  Moldovan",,   990,"",
+"Ethnic or cultural origin","  Iroquois (Haudenosaunee), n.o.s.",154,   245,"",
+"Ethnic or cultural origin","  New Zealander",,  1095,"",
+"Ethnic or cultural origin","  Sudanese",,  2480,"",
+"Ethnic or cultural origin","  Breton",,    40,"",
+"Ethnic or cultural origin","  Pennsylvania Dutch",,   350,"",
+"Ethnic or cultural origin","  Malaysian",,  1175,"",
+"Ethnic or cultural origin","  Plains Cree",,   200,"",
+"Ethnic or cultural origin","  North African, n.o.s.",155,   420,"",
+"Ethnic or cultural origin","  Huron (Wendat)",,    80,"",
+"Ethnic or cultural origin","  Saskatchewanian",,  1150,"",
+"Ethnic or cultural origin","  Buddhist",,  1010,"",
+"Ethnic or cultural origin","  Gaspesian",,    10,"",
+"Ethnic or cultural origin","  Norman",,   145,"",
+"Ethnic or cultural origin","  Southern or East African, n.o.s.",156,  1270,"",
+"Ethnic or cultural origin","  Ivorian",,   210,"",
+"Ethnic or cultural origin","  Saulteaux",,   280,"",
+"Ethnic or cultural origin","  Anishinaabe, n.o.s.",157,   160,"",
+"Ethnic or cultural origin","  Burundian",,   150,"",
+"Ethnic or cultural origin","  Tigrinya",,  2240,"",
+"Ethnic or cultural origin","  Nicaraguan",,   800,"",
+"Ethnic or cultural origin","  Mauritian",,   450,"",
+"Ethnic or cultural origin","  Kenyan",,  1050,"",
+"Ethnic or cultural origin","  Oji-Cree",,    20,"",
+"Ethnic or cultural origin","  Vincentian",,   175,"",
+"Ethnic or cultural origin","  Jordanian",,   445,"",
+"Ethnic or cultural origin","  Manitoban",,   460,"",
+"Ethnic or cultural origin","  Cape Bretoner",,   175,"",
+"Ethnic or cultural origin","  Rwandan",,   280,"",
+"Ethnic or cultural origin","  Grenadian",,   225,"",
+"Ethnic or cultural origin","  Malayali",,   665,"",
+"Ethnic or cultural origin","  Chaldean",,   165,"",
+"Ethnic or cultural origin","  Sinhalese",,   555,"",
+"Ethnic or cultural origin","  Mayan",,   575,"",
+"Ethnic or cultural origin","  Honduran",,   340,"",
+"Ethnic or cultural origin","  Cherokee",,   545,"",
+"Ethnic or cultural origin","  Qalipu Mi'kmaq",,   110,"",
+"Ethnic or cultural origin","  Indo-Caribbean",,   140,"",
+"Ethnic or cultural origin","  Flemish",,   420,"",
+"Ethnic or cultural origin","  United Empire Loyalist",,   180,"",
+"Ethnic or cultural origin","  Senegalese",,   140,"",
+"Ethnic or cultural origin","  Azerbaijani",,   670,"",
+"Ethnic or cultural origin","  Sicilian",,   110,"",
+"Ethnic or cultural origin","  Pashtun",,   820,"",
+"Ethnic or cultural origin","  Malay",,   790,"",
+"Ethnic or cultural origin","  Goan",,   350,"",
+"Ethnic or cultural origin","  Bantu, n.o.s.",158,   330,"",
+"Ethnic or cultural origin","  Tibetan",,   790,"",
+"Ethnic or cultural origin","  Zimbabwean",,   660,"",
+"Ethnic or cultural origin","  Burmese",,   540,"",
+"Ethnic or cultural origin","  Mongolian",,   985,"",
+"Ethnic or cultural origin","  Azorean",,    70,"",
+"Ethnic or cultural origin","  Atikamekw",,     0,"",
+"Ethnic or cultural origin","  Bamileke",,   105,"",
+"Ethnic or cultural origin","  Indo-Guyanese",,    80,"",
+"Ethnic or cultural origin","  Ugandan",,   300,"",
+"Ethnic or cultural origin","  Oromo",,  1560,"",
+"Ethnic or cultural origin","  Tanzanian",,   795,"",
+"Ethnic or cultural origin","  Yemeni",,   555,"",
+"Ethnic or cultural origin","  Central African",,    70,"",
+"Ethnic or cultural origin","  Libyan",,   445,"",
+"Ethnic or cultural origin","  Basque",,   175,"",
+"Ethnic or cultural origin","  Uruguayan",,    85,"",
+"Ethnic or cultural origin","  Akan, n.o.s.",159,   295,"",
+"Ethnic or cultural origin","  Central or West African, n.o.s.",160,   345,"",
+"Ethnic or cultural origin","  Igorot",,  1195,"",
+"Ethnic or cultural origin","  Fulani",,    65,"",
+"Ethnic or cultural origin","  Woodland Cree",,    70,"",
+"Ethnic or cultural origin","  Guinean",,   155,"",
+"Ethnic or cultural origin","  St. Lucian",,   230,"",
+"Ethnic or cultural origin","  Prince Edward Islander",,   215,"",
+"Ethnic or cultural origin","  Maliseet",,    25,"",
+"Ethnic or cultural origin","  Beninese",,   145,"",
+"Ethnic or cultural origin","  Telugu",,   255,"",
+"Ethnic or cultural origin","  Roma",,   200,"",
+"Ethnic or cultural origin","  Costa Rican",,   180,"",
+"Ethnic or cultural origin","  African Nova Scotian",,    85,"",
+"Ethnic or cultural origin","  Malagasy",,    35,"",
+"Ethnic or cultural origin","  Kashmiri",,   820,"",
+"Ethnic or cultural origin","  Singaporean",,   325,"",
+"Ethnic or cultural origin","  Karen",,   390,"",
+"Ethnic or cultural origin","  Edo",,   605,"",
+"Ethnic or cultural origin","  Tajik",,   280,"",
+"Ethnic or cultural origin","  Amhara",,   810,"",
+"Ethnic or cultural origin","  Paraguayan",,   100,"",
+"Highest certificate, diploma or degree","Total - Highest certificate, diploma or degree for the population aged 15 years and over in private households - 25% sample data",165,1056230,"",
+"Highest certificate, diploma or degree","  No certificate, diploma or degree",,134565,"",
+"Highest certificate, diploma or degree","  High (secondary) school diploma or equivalency certificate",167,273135,"",
+"Highest certificate, diploma or degree","  Postsecondary certificate, diploma or degree",,648530,"",
+"Highest certificate, diploma or degree","    Postsecondary certificate or diploma below bachelor level",,271085,"",
+"Highest certificate, diploma or degree","      Apprenticeship or trades certificate or diploma",, 62155,"",
+"Highest certificate, diploma or degree","        Non-apprenticeship trades certificate or diploma",168, 22795,"",
+"Highest certificate, diploma or degree","        Apprenticeship certificate",169, 39360,"",
+"Highest certificate, diploma or degree","      College, CEGEP or other non-university certificate or diploma",170,172905,"",
+"Highest certificate, diploma or degree","      University certificate or diploma below bachelor level",, 36020,"",
+"Highest certificate, diploma or degree","    Bachelor's degree or higher",,377450,"",
+"Highest certificate, diploma or degree","      Bachelor's degree",,258985,"",
+"Highest certificate, diploma or degree","      University certificate or diploma above bachelor level",, 19835,"",
+"Highest certificate, diploma or degree","      Degree in medicine, dentistry, veterinary medicine or optometry",,  9365,"",
+"Highest certificate, diploma or degree","      Master's degree",, 77600,"",
+"Highest certificate, diploma or degree","      Earned doctorate",171, 11670,"",
+"Highest certificate, diploma or degree","Total - Highest certificate, diploma or degree for the population aged 25 to 64 years in private households - 25% sample data",165,737750,"",
+"Highest certificate, diploma or degree","  No certificate, diploma or degree",, 56150,"",
+"Highest certificate, diploma or degree","  High (secondary) school diploma or equivalency certificate",167,158090,"",
+"Highest certificate, diploma or degree","  Postsecondary certificate, diploma or degree",,523505,"",
+"Highest certificate, diploma or degree","    Postsecondary certificate or diploma below bachelor level",,207210,"",
+"Highest certificate, diploma or degree","      Apprenticeship or trades certificate or diploma",, 46300,"",
+"Highest certificate, diploma or degree","        Non-apprenticeship trades certificate or diploma",168, 16310,"",
+"Highest certificate, diploma or degree","        Apprenticeship certificate",169, 29990,"",
+"Highest certificate, diploma or degree","      College, CEGEP or other non-university certificate or diploma",170,132925,"",
+"Highest certificate, diploma or degree","      University certificate or diploma below bachelor level",, 27990,"",
+"Highest certificate, diploma or degree","    Bachelor's degree or higher",,316295,"",
+"Highest certificate, diploma or degree","      Bachelor's degree",,215545,"",
+"Highest certificate, diploma or degree","      University certificate or diploma above bachelor level",, 15980,"",
+"Highest certificate, diploma or degree","      Degree in medicine, dentistry, veterinary medicine or optometry",,  8070,"",
+"Highest certificate, diploma or degree","      Master's degree",, 67610,"",
+"Highest certificate, diploma or degree","      Earned doctorate",171,  9100,"",
+"Place of work status","Total - Place of work status for the employed labour force aged 15 years and over - 25% sample data",198,638645,"",
+"Place of work status","  Worked at home",,182015,"",
+"Place of work status","  Worked outside Canada",,  2460,"",
+"Place of work status","  No fixed workplace address",, 89650,"",
+"Place of work status","  Usual place of work",,364515,"",
+"Commuting destination","Total - Commuting destination for the employed labour force aged 15 years and over with a usual place of work - 25% sample data",199,364520,"",
+"Commuting destination","  Commute within census subdivision (CSD) of residence",,332545,"",
+"Commuting destination","  Commute to a different census subdivision (CSD) within census division (CD) of residence",, 22900,"",
+"Commuting destination","  Commute to a different census subdivision (CSD) and census division (CD) within province or territory of residence",,  5875,"",
+"Commuting destination","  Commute to a different province or territory",,  3200,"",
+"Main mode of commuting","Total - Main mode of commuting for the employed labour force aged 15 years and over with a usual place of work or no fixed workplace address - 25% sample data",200,454170,"",
+"Main mode of commuting","  Car, truck or van",,378085,"",
+"Main mode of commuting","    Car, truck or van - as a driver",,350765,"",
+"Main mode of commuting","    Car, truck or van - as a passenger",, 27315,"",
+"Main mode of commuting","  Public transit",, 39905,"",
+"Main mode of commuting","  Walked",, 19195,"",
+"Main mode of commuting","  Bicycle",,  3955,"",
+"Main mode of commuting","  Other method",, 13035,"",
+"Commuting duration","Total - Commuting duration for the employed labour force aged 15 years and over with a usual place of work or no fixed workplace address - 25% sample data",201,454170,"",
+"Commuting duration","  Less than 15 minutes",, 97610,"",
+"Commuting duration","  15 to 29 minutes",,213150,"",
+"Commuting duration","  30 to 44 minutes",, 99695,"",
+"Commuting duration","  45 to 59 minutes",, 20845,"",
+"Commuting duration","  60 minutes and over",, 22870,"",
+"Time leaving for work","Total - Time leaving for work for the employed labour force aged 15 years and over with a usual place of work or no fixed workplace address - 25% sample data",202,454170,"",
+"Time leaving for work","  Between 5 a.m. and 5:59 a.m.",, 28655,"",
+"Time leaving for work","  Between 6 a.m. and 6:59 a.m.",, 79585,"",
+"Time leaving for work","  Between 7 a.m. and 7:59 a.m.",,116785,"",
+"Time leaving for work","  Between 8 a.m. and 8:59 a.m.",, 86045,"",
+"Time leaving for work","  Between 9 a.m. and 11:59 a.m.",, 67250,"",
+"Time leaving for work","  Between 12 p.m. and 4:59 a.m.",, 75850,"",
+"Children eligible for instruction in the minority official language","Total - Eligibility for instruction in the minority official language for the population in private households born in 2003 or later - 100% data",203,285180,"",
+"Children eligible for instruction in the minority official language","  Children eligible for instruction in the minority official language",, 20385,"",
+"Children eligible for instruction in the minority official language","  Children not eligible for instruction in the minority official language",,264795,"",
+"Eligibility and instruction in the minority official language for school-aged children","Total - Eligibility and instruction in the minority official language, for the population in private households born between 2003 and 2015 (inclusive) - 100% data",204,205680,"",
+"Eligibility and instruction in the minority official language for school-aged children","  Children eligible for instruction in the minority official language",, 15120,"",
+"Eligibility and instruction in the minority official language for school-aged children","    Eligible children who have been instructed in the minority official language at the primary or secondary level in Canada",,  7850,"",
+"Eligibility and instruction in the minority official language for school-aged children","    Eligible children who have not been instructed in the minority official language at the primary or secondary level in Canada",,  7275,"",
+"Eligibility and instruction in the minority official language for school-aged children","  Children not eligible for instruction in the minority official language",,190560,"",
+
+Symbols:
+...,"not applicable"
+
+
+Notes:
+1,2021 and 2016 population
+,Statistics Canada is committed to protect the privacy of all Canadians and the confidentiality of the data they provide to us. As part of this commitment  some population counts of geographic areas are adjusted in order to ensure confidentiality.
+,The adjustment to counts of the total population for any dissemination block is controlled to ensure that the population counts for dissemination areas will always be within 5 of the actual values. The adjustment has no impact on the population counts of census divisions and large census subdivisions.
+
+2,Total private dwellings
+,Private dwelling refers to a separate set of living quarters with a private entrance either from outside the building or from a common hall  lobby  vestibule or stairway inside the building. The entrance to the dwelling must be one that can be used without passing through the living quarters of some other person or group of persons.
+
+3,Private dwellings occupied by usual residents
+,A private dwelling occupied by usual residents refers to a private dwelling in which a person or a group of persons is permanently residing. Also included are private dwellings whose usual residents are temporarily absent on May 11  2021.
+
+4,The category 'Movable dwelling' includes mobile homes and other movable dwellings such as houseboats  recreational vehicles and railroad cars.
+
+5,A census family is defined as a married couple (with or without children)  a common-law couple (with or without children) or a one-parent family. For more information  refer to the Census Dictionary: Census family structure.
+
+6,There is no age restriction on children. Includes children living with a grandparent or grandparents without a parent present.
+
+7,Includes foster children.
+
+8,Multigenerational households represent all households where there is at least one person who is both the grandparent of a person in the household and the parent of another person in the same household. They also represent all households where there is at least one person who is both the child of a person in the household and the grandchild of another person in the same household. In previous censuses  multigenerational households were only created based on the former definition  not the latter. As a result  there may be small differences in counts for 2011 and 2016 in archived tables.
+
+9,Excludes multigenerational households.
+
+21,Total income - The sum of certain incomes (in cash and  in some circumstances  in kind) of the statistical unit during a specified reference period. The components used to calculate total income vary between:
+
+
+    *statistical units of social statistical programs such as persons  private households  census families and economic families;
+,
+    *statistical units of business statistical programs such as enterprises  companies  establishments and locations;
+,
+    *statistical units of farm statistical programs such as farm operator and farm family.
+,
+
+In the context of persons  total income refers to receipts from certain sources  before income taxes and deductions  during a specified reference period.
+
+In the context of census families  total income refers to receipts from certain sources of all of its family members  before income taxes and deductions  during a specified reference period.
+
+In the context of economic families  total income refers to receipts from certain sources of all of its family members  before income taxes and deductions  during a specified reference period.
+
+In the context of households  total income refers to receipts from certain sources of all household members  before income taxes and deductions  during a specified reference period.
+
+The monetary receipts included are those that tend to be of a regular and recurring nature. Receipts that are included as income are:
+
+
+    *employment income from wages  salaries  tips  commissions and net income from self-employment (for both unincorporated farm and non-farm activities);
+,
+    *income from investment sources  such as dividends and interest on bonds  accounts  guaranteed investment certificates (GICs) and mutual funds;
+,
+    *income from employer and personal pension sources  such as private pensions and payments from annuities and registered retirement income funds (RRIFs);
+,
+    *other regular cash income  such as child support payments received  spousal support payments (alimony) received and scholarships;
+,
+    *income from government sources  such as social assistance  child benefits  Employment Insurance benefits  Old Age Security benefits  COVID-19 benefits and Canada Pension Plan and Québec Pension Plan benefits and disability income.
+,
+
+Receipts excluded from this income definition are:
+
+
+    *one-time receipts  such as lottery winnings  gambling winnings  cash inheritances  lump-sum insurance settlements and tax-free savings account (TFSA) or registered retirement savings plan (RRSP) withdrawals;
+,
+    *capital gains because they are not by their nature regular and recurring. It is further assumed that they are more relevant to the concept of wealth than the concept of income;
+,
+    *employers' contributions to registered pension plans  Canada Pension Plan  Québec Pension Plan and Employment Insurance;
+,
+    *voluntary inter-household transfers  imputed rent  goods and services produced for barter and goods produced for own consumption.
+,
+
+For the 2021 Census  the reference period for income data is the calendar year 2020  unless otherwise specified.
+
+22,After-tax income - After-tax income refers to total income less income taxes of the statistical unit during a specified reference period. Income taxes refers to the sum of federal income taxes  provincial and territorial income taxes  less abatement where applicable. Provincial and territorial income taxes include health care premiums in certain jurisdictions. Abatement reduces the federal income taxes payable by persons residing in Quebec or in certain self-governing Yukon First Nation settlement lands.
+
+For the 2021 Census  the reference period for income data is the calendar year 2020  unless otherwise specified.
+
+26,Total income - The sum of certain incomes (in cash and  in some circumstances  in kind) of the statistical unit during a specified reference period. The components used to calculate total income vary between:
+
+
+    *statistical units of social statistical programs such as persons  private households  census families and economic families;
+,
+    *statistical units of business statistical programs such as enterprises  companies  establishments and locations;
+,
+    *statistical units of farm statistical programs such as farm operator and farm family.
+,
+
+In the context of persons  total income refers to receipts from certain sources  before income taxes and deductions  during a specified reference period.
+
+In the context of census families  total income refers to receipts from certain sources of all of its family members  before income taxes and deductions  during a specified reference period.
+
+In the context of economic families  total income refers to receipts from certain sources of all of its family members  before income taxes and deductions  during a specified reference period.
+
+In the context of households  total income refers to receipts from certain sources of all household members  before income taxes and deductions  during a specified reference period.
+
+The monetary receipts included are those that tend to be of a regular and recurring nature. Receipts that are included as income are:
+
+
+    *employment income from wages  salaries  tips  commissions and net income from self-employment (for both unincorporated farm and non-farm activities);
+,
+    *income from investment sources  such as dividends and interest on bonds  accounts  guaranteed investment certificates (GICs) and mutual funds;
+,
+    *income from employer and personal pension sources  such as private pensions and payments from annuities and registered retirement income funds (RRIFs);
+,
+    *other regular cash income  such as child support payments received  spousal support payments (alimony) received and scholarships;
+,
+    *income from government sources  such as social assistance  child benefits  Employment Insurance benefits  Old Age Security benefits  COVID-19 benefits and Canada Pension Plan and Québec Pension Plan benefits and disability income.
+,
+
+Receipts excluded from this income definition are:
+
+
+    *one-time receipts  such as lottery winnings  gambling winnings  cash inheritances  lump-sum insurance settlements and tax-free savings account (TFSA) or registered retirement savings plan (RRSP) withdrawals;
+,
+    *capital gains because they are not by their nature regular and recurring. It is further assumed that they are more relevant to the concept of wealth than the concept of income;
+,
+    *employers' contributions to registered pension plans  Canada Pension Plan  Québec Pension Plan and Employment Insurance;
+,
+    *voluntary inter-household transfers  imputed rent  goods and services produced for barter and goods produced for own consumption.
+,
+
+After-tax income - Total income less income taxes of the statistical unit during a specified reference period. Income taxes refers to the sum of federal income taxes  provincial and territorial income taxes  less abatement where applicable. Provincial and territorial income taxes include health care premiums in certain jurisdictions. Abatement reduces the federal income taxes payable by persons residing in Quebec or in certain self-governing Yukon First Nation settlement lands.
+
+For the 2021 Census  the reference period for income data is the calendar year 2020  unless otherwise specified.
+
+Median income - The median income of a specified group is the amount that divides the income distribution of that group into two halves  i.e.  the incomes of half of the units in that group are below the median  while those of the other half are above the median. Median incomes of households are calculated for all units  whether or not they had income.
+
+27,Total income - The sum of certain incomes (in cash and  in some circumstances  in kind) of the statistical unit during a specified reference period. The components used to calculate total income vary between:
+    *statistical units of social statistical programs such as persons  private households  census families and economic families;
+,    *statistical units of business statistical programs such as enterprises  companies  establishments and locations;
+,    *statistical units of farm statistical programs such as farm operator and farm family.
+,In the context of persons  total income refers to receipts from certain sources  before income taxes and deductions  during a specified reference period.
+In the context of census families  total income refers to receipts from certain sources of all of its family members  before income taxes and deductions  during a specified reference period.
+In the context of economic families  total income refers to receipts from certain sources of all of its family members  before income taxes and deductions  during a specified reference period.
+In the context of households  total income refers to receipts from certain sources of all household members  before income taxes and deductions  during a specified reference period.
+The monetary receipts included are those that tend to be of a regular and recurring nature. Receipts that are included as income are:
+    *employment income from wages  salaries  tips  commissions and net income from self-employment (for both unincorporated farm and non-farm activities);
+,    *income from investment sources  such as dividends and interest on bonds  accounts  guaranteed investment certificates (GICs) and mutual funds;
+,    *income from employer and personal pension sources  such as private pensions and payments from annuities and registered retirement income funds (RRIFs);
+,    *other regular cash income  such as child support payments received  spousal support payments (alimony) received and scholarships;
+,    *income from government sources  such as social assistance  child benefits  Employment Insurance benefits  Old Age Security benefits  COVID-19 benefits and Canada Pension Plan and Québec Pension Plan benefits and disability income.
+,Receipts excluded from this income definition are:
+    *one-time receipts  such as lottery winnings  gambling winnings  cash inheritances  lump-sum insurance settlements and tax-free savings account (TFSA) or registered retirement savings plan (RRSP) withdrawals;
+,    *capital gains because they are not by their nature regular and recurring. It is further assumed that they are more relevant to the concept of wealth than the concept of income;
+,    *employers' contributions to registered pension plans  Canada Pension Plan  Québec Pension Plan and Employment Insurance;
+,    *voluntary inter-household transfers  imputed rent  goods and services produced for barter and goods produced for own consumption.
+,After-tax income - Total income less income taxes of the statistical unit during a specified reference period. Income taxes refers to the sum of federal income taxes  provincial and territorial income taxes  less abatement where applicable. Provincial and territorial income taxes include health care premiums in certain jurisdictions. Abatement reduces the federal income taxes payable by persons residing in Quebec or in certain self-governing Yukon First Nation settlement lands.
+For the 2021 Census  the reference period for income data is the calendar year 2020  unless otherwise specified.
+Average income - Average income of a specified group is calculated by dividing the aggregate income of that group by the number of units in that group. Average incomes of households are calculated for all units  whether or not they had income.
+
+33,Low-income status - The income situation of the statistical unit in relation to a specific low-income line in a reference year. Statistical units with income that is below the low-income line are considered to be in low income.
+
+For the 2021 Census  the reference period for income data is the calendar year 2020  unless otherwise specified.
+
+Prior to the 2021 Census  the LIM thresholds and the LIM low income statistics were derived and reported for the population residing outside of the territories and off reserve only. It was based on the consideration that the income  prices and expenditure patterns could be quite different in the territories and on reserve  and thus  could make the interpretation of the LIM low-income statistics difficult.
+
+Since the 2016 Census  there were research studies that analyzed the feasibility of defining LIM thresholds that include the population living in the territories and on reserve  and examined the aspects that should be considered when interpreting low-income statistics based on this definition.  With the guidance and support of such research  the 2021 Census expanded the coverage of the LIM concept to all regions in Canada  making it the only low-income concept that is applicable to the population living in the territories and on reserve.
+
+Low-income measure  after tax (LIM-AT) - The Low-income measure  after tax  refers to a fixed percentage (50%) of median-adjusted after-tax income of private households. The household after-tax income is adjusted by an equivalence scale to take economies of scale into account. This adjustment for different household sizes reflects the fact that a household's needs increase  but at a decreasing rate  as the number of members increases.
+
+Using data from the 2021 Census of Population  the line applicable to a household is defined as half the Canadian median of the adjusted household after-tax income multiplied by the square root of household size. The median is determined based on all persons in private households where low-income concepts are applicable. Thresholds for specific household sizes are presented in Table 2.4 Low-income measures thresholds (LIM-AT and LIM-BT) for private households of Canada  2020  Dictionary  Census of Population  2021.
+
+When the unadjusted after-tax income of household pertaining to a person falls below the threshold applicable to the person based on household size  the person is considered to be in low income according to LIM-AT. Since the LIM-AT threshold and household income are unique within each household  low-income status based on LIM-AT can also be reported for households.
+
+Low-income cut-offs  after tax (LICO-AT) - The Low-income cut-offs  after tax refers to an income threshold  defined using 1992 expenditure data  below which economic families or persons not in economic families would likely have devoted a larger share of their after-tax income than average to the necessities of food  shelter and clothing. More specifically  the thresholds represented income levels at which these families or persons were expected to spend 20 percentage points or more of their after-tax income than average on food  shelter and clothing. These thresholds have been adjusted to current dollars using the all-items Consumer Price Index (CPI).
+The LICO-AT has 35 cut-offs varying by seven family sizes and five different sizes of area of residence to account for economies of scale and potential differences in cost of living in communities of different sizes. These thresholds are presented in Table 2.5 Low-income cut-offs  after tax (LICO-AT - 1992 base) for economic families and persons not in economic families  2020  Dictionary  Census of Population  2021.
+
+When the after-tax income of an economic family member or a person not in an economic family falls below the threshold applicable to the person  the person is considered to be in low income according to LICO-AT. Since the LICO-AT threshold and family income are unique within each economic family  low-income status based on LICO-AT can also be reported for economic families.
+
+Prevalence of low income - The proportion or percentage of units whose income falls below a specified low-income line.
+
+34,Economic family after-tax income decile group - The economic family income decile group provides a rough ranking of the economic situation of a person based on his or her relative position in the Canadian distribution of the adjusted after-tax income of economic families for all persons in private households.
+
+Using data from the 2021 Census of Population  the population in private households is sorted according to its adjusted after-tax family income and then divided into 10 equal groups each containing 10% of the population. The decile cut-points are the levels of adjusted after-tax family income that define the 10 groups.
+
+For the 2021 Census  the reference period for income data is the calendar year 2020  unless otherwise specified.
+
+35,The Gini coefficient  or Gini index  is a measure of inequality that indicates how equally income is distributed for a given population. It measures how much an income distribution deviates from perfect equality. Values of the Gini coefficient can range from 0 to 1. A value of 0 indicates that income is equally divided among the population  with all units receiving exactly the same amount of income. At the opposite extreme  a Gini coefficient of 1 denotes a perfectly unequal distribution  where one unit has all of the income in the economy. 
+
+For the census  Gini coefficients are calculated for three types of adjusted household income—market income  total income and after tax income. Adjusted income is computed by dividing the household income by a factor equal to the square root of the household size (known as the equivalence scale). This adjustment for different household sizes takes into account economies of scale. It reflects the fact that the needs of a household increase  but at a decreasing rate  as the number of members increases.
+ 
+The P90/P10 ratio is a measure of inequality. It is the ratio of the 90th and the 10th percentile of the adjusted household after-tax income. The 90th percentile means 90% of the population has income that falls below this threshold. The 10th percentile means 10% of the population has income that falls below this threshold.
+ 
+50,Tenure refers to whether the household owns or rents their private dwelling. The private dwelling may be situated on rented or leased land or be part of a condominium. A household is considered to own their dwelling if some member of the household owns the dwelling even if it is not fully paid for  for example if there is a mortgage or some other claim on it. A household is considered to rent their dwelling if no member of the household owns the dwelling. A household is considered to rent that dwelling even if the dwelling is provided without cash rent or at a reduced rent  or if the dwelling is part of a cooperative.
+For historical and statutory reasons  shelter occupancy on Indian reserves or settlements does not lend itself to the usual classification by standard tenure categories. Therefore  a special category  'dwelling provided by the local government  First Nation or Indian band ' has been created for census purposes.
+
+51,Condominium status refers to whether the private dwelling is part of a condominium development. A condominium is a residential complex in which dwellings are owned individually while land and common elements are held in joint ownership with others.
+
+52,Bedrooms refers to rooms in a private dwelling that are designed mainly for sleeping purposes even if they are now used for other purposes  such as guest rooms and television rooms. Also included are rooms used as bedrooms now  even if they were not originally built as bedrooms  such as bedrooms in a finished basement. Bedrooms exclude rooms designed for another use during the day such as dining rooms and living rooms even if they may be used for sleeping purposes at night. By definition  one-room private dwellings such as bachelor or studio apartments have zero bedrooms.
+
+53,Rooms refers to enclosed areas within a private dwelling which are finished and suitable for year round living. The number of rooms in a private dwelling includes kitchens  bedrooms and finished rooms in the attic or basement. The number of rooms in a private dwelling excludes bathrooms  halls  vestibules and rooms used solely for business purposes. Partially divided rooms are considered to be separate rooms if they are considered as such by the respondent (e.g.  L-shaped dining-room and living-room arrangements).
+
+54,Number of persons per room - Refers to an indicator of the level of crowding in a private dwelling. It is calculated by dividing the number of persons in the household by the number of rooms in the dwelling.
+
+55,Housing suitability refers to whether a private household is living in suitable accommodations according to the National Occupancy Standard (NOS); that is  whether the dwelling has enough bedrooms for the size and composition of the household. A household is deemed to be living in suitable accommodations if its dwelling has enough bedrooms  as calculated using the NOS.
+'Housing suitability' assesses the required number of bedrooms for a household based on the age  sex  and relationships among household members. An alternative variable  'persons per room ' considers all rooms in a private dwelling and the number of household members.
+Housing suitability and the National Occupancy Standard (NOS) on which it is based were developed by Canada Mortgage and Housing Corporation (CMHC) through consultations with provincial housing agencies.
+
+56,Period of construction refers to the period in time during which the building or dwelling was originally constructed.
+This refers to the period in which the building was completed  not the time of any later remodeling  additions or conversions.
+For properties having multiple residential structures  this refers to the period in which the most recent structure was completed.
+
+57,Includes data up to May 11  2021.
+
+58,Dwelling condition refers to whether the dwelling is in need of repairs. This does not include desirable remodelling or additions.
+
+59,Refers to whether or not a person residing in the household is responsible for paying the rent  or the mortgage  or the taxes  or the electricity or other services or utilities. Where a number of people may contribute to the payments  more than one person in the household may be identified as a household maintainer. If no person in the household is identified as making such payments  the reference person is identified by default.
+
+60,Primary household maintainer - The first person in the household identified as someone who pays the rent  or the mortgage  or the taxes  or the electricity or other services or utilities for the dwelling. When more than one member of the household contributes to the payments  the first person listed is chosen as the primary household maintainer. If no person in the household is identified as making any such payments  the first person listed is selected by default.
+The order of the persons in a household is determined by the order in which they are listed on the questionnaire. Generally  an adult is listed first followed  if applicable  by their spouse or common-law partner and then by their children. The order does not necessarily correspond to the proportion of household payments made by each person.
+
+61,Shelter-cost-to-income ratio - Refers to the proportion of average total income of household which is spent on shelter costs.
+Shelter-cost-to-income ratio is calculated for private households  who reported a total household income greater than zero.
+Private households located on an agricultural operation that is operated by a member of the household  and households who reported a zero or negative total household income are excluded.
+The relatively high shelter-costs-to-household income ratios for some households may have resulted from the difference in the reference period for shelter costs and household total income data. The reference period for shelter cost data is 2021  while household total income is reported for the year 2020. As well  for some households  the 2020 household total income may represent income for only part of a year.
+For more information on household total income or shelter costs  refer to the Census Dictionary: Total income and Shelter cost.
+
+62,Acceptable housing refers to whether a household meets each of the three indicator thresholds established by the Canada Mortgage and Housing Corporation for housing adequacy  suitability and affordability.Housing indicator thresholds are defined as follows:
+    *Adequate housing is reported by their residents as not requiring any major repairs.
+,    *Affordable housing has shelter costs equal to less than 30% of total before-tax household income.
+,    *Suitable housing has enough bedrooms for the size and composition of resident households according to the National Occupancy Standard (NOS)  conceived by the Canada Mortgage and Housing Corporation and provincial and territorial representatives.
+,Acceptable housing identifies which thresholds the household falls below  if any. Housing that is adequate in condition  suitable in size and affordable is considered to be acceptable.
+Households below and above the thresholds are based on the indicators for which individual households can be assessed. Farm and on-reserve households whose housing does not meet either or both of the suitability and adequacy thresholds are counted in the total of households below the thresholds. Farm and on-reserve households who live in housing that meets both the suitability and adequacy thresholds are counted in the total of households above the thresholds (even though it is not possible to assess housing affordability for these households). Farm households and on-reserve households cannot be assessed for housing affordability because the concept is not applicable.
+Housing affordability is assessed for owner and tenant households with household total income greater than zero in non-farm  non-reserve private dwellings.
+
+63,Core housing need refers to whether a private household's housing falls below at least one of the indicator thresholds for housing adequacy  affordability or suitability  and would have to spend 30% or more of its total before-tax income to pay the median rent of alternative local housing that is acceptable (attains all three housing indicator thresholds). Housing indicator thresholds are defined as follows: Adequate housing is reported by their residents as not requiring any major repairs. Affordable housing has shelter costs equal to less than 30% of total before-tax household income. Suitable housing has enough bedrooms for the size and composition of resident households according to the National Occupancy Standard (NOS)  conceived by the Canada Mortgage and Housing Corporation and provincial and territorial representatives. Only private  non-farm  non-reserve and owner- or renter-households with incomes greater than zero and shelter-cost-to-income ratios less than 100% are assessed for 'core housing need.' Non-family households with at least one maintainer aged 15 to 29 attending school are considered not to be in 'core housing need' regardless of their housing circumstances. Attending school is considered a transitional phase  and low incomes earned by student households are viewed as being a temporary condition.
+
+64,Presence of mortgage payments refers to whether an owner household makes regular mortgage or loan payments for their dwelling.
+
+65,Shelter cost refers to the average monthly total of all shelter expenses paid by households.
+Shelter costs for owner households include  where applicable  mortgage payments  property taxes and condominium fees  along with the costs of electricity  heat  water and other municipal services. For renter households  shelter costs include  where applicable  the rent and the costs of electricity  heat  water and other municipal services. For households living in a dwelling provided by the local government  First Nation or Indian band  shelter costs include  where applicable  the monthly use or occupancy payment and the costs of electricity  heat  water and other municipal services.
+
+66,Value (owner estimated) refers to the dollar amount expected by the owner if the asset were to be sold.
+In the context of dwelling  it refers to the value of the entire dwelling  including the value of the land it is on and of any other structure  such as a garage  which is on the property. If the dwelling is located in a building which contains several dwellings  or a combination of residential and business premises  all of which the household owns  the value is estimated as a portion of the market value that applies only to the dwelling in which the household resides.
+
+67,Subsidized housing refers to whether a renter household lives in a dwelling that is subsidized. Subsidized housing includes rent geared to income  social housing  public housing  government-assisted housing  non-profit housing  rent supplements and housing allowances.
+
+79,'Immigrant status' refers to whether the person is a non-immigrant  an immigrant or a non-permanent resident.
+'Period of immigration' refers to the period in which the immigrant first obtained landed immigrant or permanent resident status.
+For more information on immigration variables  including information on their classifications  the questions from which they are derived  data quality and their comparability with other sources of data  please refer to the Place of Birth  Generation Status  Citizenship and Immigration Reference Guide  Census of Population  2021.
+
+80,'Non-immigrants' includes persons who are Canadian citizens by birth.
+
+81,'Immigrants' includes persons who are  or who have ever been  landed immigrants or permanent residents. Such persons have been granted the right to live in Canada permanently by immigration authorities. Immigrants who have obtained Canadian citizenship by naturalization are included in this category. In the 2021 Census of Population  'Immigrants' includes immigrants who were admitted to Canada on or prior to May 11  2021.
+
+82,Includes immigrants who were admitted to Canada on or prior to May 11  2021.
+
+83,'Non-permanent residents' includes persons from another country with a usual place of residence in Canada and who have a work or study permit or who have claimed refugee status (asylum claimants). Family members living with work or study permit holders are also included  unless these family members are already Canadian citizens  landed immigrants or permanent residents.
+
+99,'Generation status' refers to whether or not the person or the person's parents were born in Canada.
+For more information on generation status variables  including information on their classifications  the questions from which they are derived  data quality and their comparability with other sources of data  please refer to the Place of Birth  Generation Status  Citizenship and Immigration Reference Guide  Census of Population  2021.
+
+100,'First generation' includes persons who were born outside Canada. For the most part  these are people who are now  or once were  immigrants to Canada.
+
+101,'Second generation' includes persons who were born in Canada and had at least one parent born outside Canada. For the most part  these are the children of immigrants.
+
+102,'Third generation or more' includes persons who were born in Canada with all parents born in Canada.
+
+117,'Visible minority' refers to whether a person is a visible minority or not  as defined by the Employment Equity Act. The Employment Equity Act defines visible minorities as "persons  other than Aboriginal peoples  who are non-Caucasian in race or non-white in colour." The visible minority population consists mainly of the following groups: South Asian  Chinese  Black  Filipino  Arab  Latin American  Southeast Asian  West Asian  Korean and Japanese.
+In 2021 Census analytical and communications products  the term "visible minority" has been replaced by the terms "racialized population" or "racialized groups"  reflecting the increased use of these terms in the public sphere.
+For more information on visible minority and population group variables  including information on their classifications  the questions from which they are derived  data quality and their comparability with other sources of data  please refer to the Visible Minority and Population Group Reference Guide  Census of Population  2021.
+
+118,In 2021 Census analytical and communications products  the term "visible minority" has been replaced by the terms "racialized population" or "racialized groups"  reflecting the increased use of these terms in the public sphere.
+
+119,The abbreviation "n.i.e." means "not included elsewhere." This category includes persons who provided responses that are classified as a visible minority  but that cannot be classified with a specific visible minority group. Such responses include  for example  "Guyanese " "Pacific Islander " "Polynesian " "Tibetan" and "West Indian."
+
+120,In 2021 Census analytical and communications products  this category is referred to as "the rest of the population."
+
+121,'Ethnic or cultural origin' refers to the ethnic or cultural origins of the person's ancestors. Ancestors may have Indigenous origins  origins that refer to different countries or other origins that may not refer to different countries.
+The sum of the ethnic or cultural origins in this table is greater than the total population estimate because a person may report more than one ethnic or cultural origin in the census.
+The ethnic groups selected are the most frequently reported at the Canada level.
+For more information on ethnic or cultural origin variables  including information on their classifications  the questions from which they are derived  data quality and their comparability with other sources of data  please refer to the Ethnic or Cultural Origin Reference Guide  Census of Population  2021.
+
+122,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating French origins  not otherwise specified (e.g.  "French").
+
+123,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating British Isles origins  not otherwise specified (e.g.  "British " "United Kingdom").
+
+124,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Caucasian (White) origins  not otherwise specified (e.g.  "Caucasian").
+
+125,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating First Nations (North American Indian) origins  not otherwise specified (e.g.  "First Nations " "North American Indian").
+
+126,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating European origins  not otherwise specified (e.g.  "European").
+
+127,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating African origins  not otherwise specified (e.g.  "African").
+
+128,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Arab origins  not otherwise specified (e.g.  "Arab").
+
+129,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Asian origins  not otherwise specified (e.g.  "Asian").
+
+130,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Cree origins  not otherwise specified (e.g.  "Cree").
+
+131,The abbreviation "n.i.e." means "not included elsewhere." This category includes responses indicating Christian origins  not included elsewhere (e.g.  "Christian " "Baptist " "Catholic").
+
+132,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating North American Indigenous origins  not otherwise specified (e.g.  "Aboriginal " "Indigenous").
+
+133,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating South Asian origins  not otherwise specified (e.g.  "South Asian").
+
+134,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Mi'kmaq origins  not otherwise specified (e.g.  "Mi'kmaq").
+
+135,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Northern European origins  not otherwise specified (e.g.  "Northern European " "Scandinavian").
+
+136,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Latin  Central or South American origins  not otherwise specified (e.g.  "Latin American " "South American").
+
+137,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Black origins  not otherwise specified (e.g.  "Black").
+
+138,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Inuit origins  not otherwise specified (e.g.  "Inuit").
+
+139,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Eastern European origins  not otherwise specified (e.g.  "Eastern European").
+
+140,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating East or Southeast Asian origins  not otherwise specified (e.g.  "East Asian " "Southeast Asian").
+
+141,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating West or Central Asian or Middle Eastern origins  not otherwise specified (e.g.  "Central Asian " "Middle Eastern " "West Asian").
+
+142,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Caribbean origins  not otherwise specified (e.g.  "Caribbean").
+
+143,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating West Indian origins  not otherwise specified (e.g.  "West Indian").
+
+144,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Hispanic origins  not otherwise specified (e.g.  "Hispanic").
+
+145,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Western European origins  not otherwise specified (e.g.  "Western European").
+
+146,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Czechoslovakian origins  not otherwise specified (e.g.  "Czechoslovakian").
+
+147,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Yugoslavian origins  not otherwise specified (e.g.  "Yugoslavian").
+
+148,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Slavic origins  not otherwise specified (e.g.  "Slavic").
+
+149,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Innu origins  not otherwise specified (e.g.  "Innu " "Montagnais").
+
+150,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Celtic origins  not otherwise specified (e.g.  "Celtic").
+
+151,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating North American origins  not otherwise specified (e.g.  "North American").
+
+152,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Dene origins  not otherwise specified (e.g.  "Dene").
+
+153,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Blackfoot origins  not otherwise specified (e.g.  "Blackfoot").
+
+154,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Iroquoian (Haudenosaunee) origins  not otherwise specified (e.g.  "Iroquois " "Haudenosaunee").
+
+155,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating North African origins  not otherwise specified (e.g.  "North African").
+
+156,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Southern or East African origins  not otherwise specified (e.g.  "East African").
+
+157,The abbreviation "n.o.s." means "not otherwise specified.' This category includes responses indicating Anishinaabe origins  not otherwise specified (e.g.  "Anishinaabe").
+
+158,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Bantu origins  not otherwise specified (e.g.  "Bantu").
+
+159,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Akan origins  not otherwise specified (e.g.  "Akan").
+
+160,The abbreviation "n.o.s." means "not otherwise specified." This category includes responses indicating Central or West African origins  not otherwise specified (e.g.  "Central African " "West African").
+
+165,For information on data quality for this variable  refer to the Education Reference Guide  Census of Population  2021  Catalogue no. 98-500-X2021013.
+
+167,'High (secondary) school diploma or equivalency certificate' includes only people who have this as their highest educational credential. It excludes persons with a postsecondary certificate  diploma or degree.
+
+168,'Non-apprenticeship trades certificate or diploma' includes trades certificates or diplomas such as pre-employment or vocational certificates and diplomas from brief trade programs completed at colleges  institutes of technology  vocational centres and similar institutions. It also includes qualifications from vocational training programs in the province of Quebec such as the Diplôme d'études professionnelles (DEP)/Diploma of Vocational Studies (DVS).
+
+169,'Apprenticeship certificate' includes Certificates of Apprenticeship  Certificates of Qualification and Journeyperson's designations.
+
+170,College  CEGEP and other non-university certificates and diplomas obtained from programs that are typically completed in less than three months are not included in this category.
+
+171,'Earned doctorate' does not include honorary doctorates.
+
+198,Place of work status refers to whether a person worked at home  worked outside Canada  had no fixed workplace address  or worked at a specific address (usual place of work).
+
+199,Commuting destination refers to whether or not a person commutes to another municipality (i.e.  census subdivision)  another census division or another province or territory. Commuting refers to the travel of a person to their usual place of work.
+
+200,Main mode of commuting refers to the main mode of transportation a person uses to travel to their place of work.
+The census assumes that the commute to work originates from the usual place of residence  but this may not always be the case. Sometimes  respondents may be on a business trip and may have reported their place of work or main mode of commuting based on where they were working during the trip. Some persons maintain a residence close to work and commute to their home on weekends. Students often work after school at a location near their school. As a result  the data may show unusual commutes or unusual main modes of commuting.
+
+201,Commuting duration refers to the length of time  in minutes  usually required by a person to travel to their place of work.
+
+202,Time leaving for work refers to the time of day at which a person usually leaves to go to their place of work.
+
+203,Eligibility for instruction in the minority official language indicates whether a child is eligible for instruction at the primary and secondary levels in English in Quebec or in French in Canada outside Quebec  pursuant to the Canadian Charter of Rights and Freedoms' criteria  except citizenship.
+In the 2021 Census  the child eligible for instruction in the minority official language is younger than 18 years of age on December 31  2020.
+More information on the variables related to instruction in the minority official language  including definitions  concepts and classifications  the questions from which they are derived and data quality can be found in the Instruction in the Minority Official Language Reference Guide  Census of Population  2021  and the Minority language educational rights: Technical report on changes for the 2021 Census.
+
+204,Eligibility for instruction in the minority official language indicates whether a child is eligible for instruction at the primary and secondary levels in English in Quebec or in French in Canada outside Quebec  pursuant to the Canadian Charter of Rights and Freedoms' criteria  except citizenship.
+In the 2021 Census  the child eligible for instruction in the minority official language is younger than 18 years of age on December 31  2020. However  the total population for this profile is school-aged children born between 2003 and 2015 (inclusive)  representing children 5 to 17 years of age on December 31  2020.
+For residents of Quebec  instruction in the minority official language at the primary or secondary level in Canada refers to children who have been instructed  for at least one year  in an English-language school (including in a French immersion program in an English-language school) at the primary or secondary level in Canada. For residents of Canada outside Quebec  it refers to children who have been instructed  for at least one year  in a regular French program in a French-language school (excluding in a French immersion program in an English-language school) at the primary or secondary level in Canada.
+More information on the variables related to instruction in the minority official language  including definitions  concepts and classifications  the questions from which they are derived and data quality can be found in the Instruction in the Minority Official Language Reference Guide  Census of Population  2021  and the Minority language educational rights: Technical report on changes for the 2021 Census.
+
+
+
+Data quality:
+"Calgary, City (CY)"
+"Total non-response (TNR) rate, short-form census questionnaire: 2.5%"
+"Total non-response (TNR) rate, long-form census questionnaire: 3.8%"
+
+
+"Source: Statistics Canada, 2021 Census of Population."
+
+How to cite: Statistics Canada. 2023. Census Profile. 2021 Census.
+Statistics Canada Catalogue no. 98-316-X2021001. Ottawa. Released February 8  2023.
+https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
