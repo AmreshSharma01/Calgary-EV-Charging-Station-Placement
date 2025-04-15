@@ -21,6 +21,13 @@ from visualization import (
 )
 from utils import format_recommendations_table, calculate_stations_per_100k, get_feature_info
 
+# Make sure to install matplotlib if you haven't already:
+# pip install matplotlib
+from octant_analysis import (
+    divide_into_octants, analyze_octant_demand, create_octant_map,
+    create_octant_demand_chart, create_octant_station_chart, create_octant_demand_gap_chart
+)
+
 # Suppress warnings
 warnings.filterwarnings('ignore')
 
@@ -52,6 +59,7 @@ with st.expander("📋 How to Use This Application", expanded=True):
     - **Clustering Analysis**: Identifies high-potential areas for charging stations
     - **Demand Prediction**: Forecasts future EV charging demand
     - **Route Optimization**: Optimizes routes between high-demand locations
+    - **Octant Analysis**: Analyzes demand by road network octants
     - **Recommendations**: Ranked list of suggested locations for new charging stations
     """)
 
@@ -138,7 +146,7 @@ st.sidebar.subheader("Advanced Settings")
 st.session_state.quiet_mode = st.sidebar.checkbox("Quiet Mode (Less Output)", value=False)
 
 # Create tabs for different views
-tabs = st.tabs(["Dashboard", "Data Explorer", "Clustering Analysis", "Demand Prediction", "Route Optimization", "Recommendations"])
+tabs = st.tabs(["Dashboard", "Data Explorer", "Clustering Analysis", "Demand Prediction", "Route Optimization", "Octant Analysis", "Recommendations"])
 
 # Dashboard Tab
 with tabs[0]:
@@ -573,8 +581,120 @@ if run_analysis:
         else:
             st.warning("Demand prediction must be completed before route optimization. Run the analysis first.")
     
-    # Recommendations Tab
+    # Octant Analysis Tab
     with tabs[5]:
+        st.header("Road Network Octant Analysis")
+        
+        if hasattr(st.session_state, 'demand_data') and st.session_state.demand_data is not None:
+            try:
+                with st.spinner("Analyzing demand by road network octants..."):
+                    # Get demand data
+                    demand_data = st.session_state.demand_data
+                    
+                    # Divide into octants
+                    data_with_octants, octant_polygons = divide_into_octants(demand_data)
+                    
+                    # Analyze demand by octant
+                    octant_summary = analyze_octant_demand(data_with_octants)
+                
+                if octant_summary is not None:
+                    # Display results
+                    st.success(f"Octant analysis completed successfully!")
+                    
+                    # Create map with octants
+                    st.subheader("Road Network Octant Map")
+                    octant_map = create_octant_map(data_with_octants, octant_polygons, ev_stations)
+                    folium_static(octant_map)
+                    
+                    # Display octant summary statistics
+                    st.subheader("Octant Analysis Summary")
+                    
+                    col1, col2 = st.columns(2)
+                    
+                    with col1:
+                        # Current EV stations by octant
+                        st.metric("Total Octants Analyzed", "8")
+                    
+                    with col2:
+                        # Calculate coverage metric
+                        covered_octants = sum(octant_summary['ev_stations'] > 0)
+                        st.metric("Octants with EV Stations", f"{covered_octants}/8")
+                    
+                    # Show the octant summary table
+                    st.subheader("Demand and Station Distribution by Octant")
+                    st.dataframe(
+                        octant_summary[['direction', 'ev_stations', 'current_demand', 'future_demand', 'demand_growth']].round(2)
+                    )
+                    
+                    # Create visualization charts
+                    st.subheader("Visualizations")
+                    
+                    chart_col1, chart_col2 = st.columns(2)
+                    
+                    with chart_col1:
+                        # Radar chart for demand by octant
+                        demand_chart = create_octant_demand_chart(octant_summary)
+                        st.plotly_chart(demand_chart, use_container_width=True)
+                    
+                    with chart_col2:
+                        # Bar chart for stations by octant
+                        station_chart = create_octant_station_chart(octant_summary)
+                        st.plotly_chart(station_chart, use_container_width=True)
+                    
+                    # Full-width chart for demand gap
+                    gap_chart = create_octant_demand_gap_chart(octant_summary)
+                    st.plotly_chart(gap_chart, use_container_width=True)
+                    
+                    # Key insights and recommendations
+                    st.subheader("Key Insights from Octant Analysis")
+                    
+                    # Find octants with highest demand and lowest coverage
+                    high_demand_octants = octant_summary.sort_values('future_demand', ascending=False)['direction'].iloc[:2].tolist()
+                    underserved_octants = octant_summary.sort_values('demand_per_station', ascending=False)['direction'].iloc[:2].tolist()
+                    
+                    st.markdown(f"""
+                    ### Demand Distribution
+                    - Highest demand areas are in the **{high_demand_octants[0]}** and **{high_demand_octants[1]}** octants
+                    - Most underserved areas (highest demand-to-station ratio) are in the **{underserved_octants[0]}** and **{underserved_octants[1]}** octants
+                    
+                    ### Recommendations Based on Octant Analysis
+                    1. **Prioritize new stations** in underserved octants with high demand-to-station ratios
+                    2. **Balance the network** by ensuring at least minimal coverage in all octants
+                    3. **Monitor growth patterns** in octants showing rapid demand increase
+                    """)
+                    
+                    # Add contextual information about octant analysis
+                    with st.expander("About Octant Analysis Methodology"):
+                        st.markdown("""
+                        The octant analysis divides Calgary's geography into 8 directional segments:
+                        
+                        1. **East (0°-45°)**
+                        2. **Northeast (45°-90°)**
+                        3. **North (90°-135°)**
+                        4. **Northwest (135°-180°)**
+                        5. **West (180°-225°)**
+                        6. **Southwest (225°-270°)**
+                        7. **South (270°-315°)**
+                        8. **Southeast (315°-360°)**
+                        
+                        Each data point is assigned to an octant based on its position relative to Calgary's downtown center. This analysis helps identify:
+                        
+                        - **Geographic disparities** in charging infrastructure
+                        - **Directional demand patterns** along major road network corridors
+                        - **Underserved areas** where new stations would have the highest impact
+                        - **Growth directions** where future expansion should be focused
+                        
+                        The demand-to-station ratio is a key metric that indicates which areas most urgently need additional charging infrastructure.
+                        """)
+                
+            except Exception as e:
+                st.error(f"Error during octant analysis: {str(e)}")
+                st.info("Try running the demand prediction first or check for data issues.")
+        else:
+            st.warning("Demand prediction must be completed before octant analysis. Run the analysis first.")
+    
+    # Recommendations Tab
+    with tabs[6]:
         st.header("Recommendations for EV Charging Station Placement")
         
         if (hasattr(st.session_state, 'clustered_data') and st.session_state.clustered_data is not None and 
@@ -582,7 +702,7 @@ if run_analysis:
             
             try:
                 with st.spinner("Generating recommendations..."):
-                    # Generate recommendations based on clustering and demand data
+# Generate recommendations based on clustering and demand data
                     recommendations = generate_recommendations(
                         st.session_state.clustered_data,
                         st.session_state.demand_data,
@@ -651,8 +771,9 @@ if run_analysis:
                         1. **Spatial Clustering**: Identifying natural groupings of potential high-demand areas
                         2. **Demand Forecasting**: Projecting future EV charging needs based on current patterns
                         3. **Route Optimization**: Ensuring strategic placement along common travel corridors
-                        4. **Existing Infrastructure**: Complementing current charging network
-                        5. **Community Factors**: Considering demographics and community types
+                        4. **Octant Analysis**: Balancing coverage across the eight directional segments of the city
+                        5. **Existing Infrastructure**: Complementing current charging network
+                        6. **Community Factors**: Considering demographics and community types
                         
                         Each recommended location is scored based on a combination of these factors, with higher weights given to future demand and strategic positioning.
                         """)
@@ -679,7 +800,7 @@ if run_analysis:
             st.warning("Both clustering and demand prediction must be completed to generate recommendations. Run the analysis first.")
 else:
     # If analysis hasn't been run, show message in other tabs
-    for tab_idx, tab_name in enumerate(["Clustering Analysis", "Demand Prediction", "Route Optimization", "Recommendations"]):
+    for tab_idx, tab_name in enumerate(["Clustering Analysis", "Demand Prediction", "Route Optimization", "Octant Analysis", "Recommendations"]):
         if tab_idx + 2 < len(tabs):  # +2 because we're starting at the 3rd tab (index 2)
             with tabs[tab_idx + 2]:
                 st.info(f"Click the 'Run Analysis' button in the sidebar to perform {tab_name.lower()}.")
