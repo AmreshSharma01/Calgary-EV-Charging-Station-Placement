@@ -175,6 +175,10 @@ def create_demand_map(demand_data, ev_stations=None):
             <b>Source:</b> {row.get('source', 'Unknown')}
             """
             
+            # Add income factor if available
+            if 'income_factor' in row:
+                popup_content += f"<br><b>Income Factor:</b> {row.get('income_factor', 1):.2f}"
+            
             folium.CircleMarker(
                 location=[row.geometry.y, row.geometry.x],
                 radius=radius,
@@ -349,7 +353,7 @@ def create_recommendations_map(recommendations, ev_stations=None):
 
 def create_heatmap(data_points):
     """
-    Create a heatmap of data points
+    Create a heatmap of data points with extra robust error handling
     
     Parameters:
     -----------
@@ -364,65 +368,166 @@ def create_heatmap(data_points):
     # Create a map centered on Calgary
     m = folium.Map(location=[51.05, -114.07], zoom_start=11)
     
-    # Extract points with weights for the heatmap
-    if data_points is not None and not data_points.empty:
-        heatmap_data = []
-        
-        for idx, row in data_points.iterrows():
-            if hasattr(row, 'geometry') and row.geometry is not None and not row.geometry.is_empty:
-                try:
-                    # Extract coordinates
-                    y, x = row.geometry.y, row.geometry.x
-                    
-                    # Verify coordinates are valid numbers
-                    if pd.isna(x) or pd.isna(y):
-                        continue
-                        
-                    # Default weight is 1
-                    weight = 1.0
-                    
-                    # Use importance_score if available
-                    if 'importance_score' in data_points.columns:
-                        importance = row.get('importance_score', 1)
-                        if not pd.isna(importance):
-                            weight = float(importance)
-                    
-                    # Use weight column if available
-                    if 'weight' in data_points.columns:
-                        w = row.get('weight', 1)
-                        if not pd.isna(w):
-                            weight *= float(w)
-                    
-                    # Use future_demand if available
-                    if 'future_demand' in data_points.columns:
-                        demand = row.get('future_demand', 0)
-                        if not pd.isna(demand):
-                            weight *= (1 + float(demand))
-                    
-                    # Add to heatmap data - ensure all values are float
-                    heatmap_data.append([float(y), float(x), float(weight)])
-                except (AttributeError, TypeError, ValueError) as e:
-                    # Skip this point if there's any error
-                    continue
-        
-        # Add the heatmap layer if we have data and it's not empty
-        if len(heatmap_data) > 0:
-            try:
-                HeatMap(heatmap_data, min_opacity=0.2, radius=15, blur=10, 
-                        gradient={0.4: 'blue', 0.65: 'lime', 0.8: 'yellow', 1: 'red'}).add_to(m)
-            except Exception as e:
-                # If heatmap creation fails, add a warning to the map
-                folium.Marker(
-                    location=[51.05, -114.07],
-                    popup=f"Could not create heatmap: {str(e)}",
-                    icon=folium.Icon(color="red", icon="info-sign")
-                ).add_to(m)
-    else:
-        # Add a marker indicating no data
+    # Safety check for the input data
+    if data_points is None or not isinstance(data_points, gpd.GeoDataFrame) or data_points.empty:
         folium.Marker(
             location=[51.05, -114.07],
             popup="No valid data for heatmap",
             icon=folium.Icon(color="orange", icon="info-sign")
+        ).add_to(m)
+        return m
+    
+    # Extract points with weights for the heatmap
+    try:
+        heatmap_data = []
+        
+        # First, check if the geometry column exists and contains Points
+        if 'geometry' not in data_points.columns:
+            folium.Marker(
+                location=[51.05, -114.07],
+                popup="No geometry column in data",
+                icon=folium.Icon(color="red", icon="info-sign")
+            ).add_to(m)
+            return m
+        
+        # Process each row with extremely robust error handling
+        for idx, row in data_points.iterrows():
+            try:
+                # Skip if geometry is missing or invalid
+                if not hasattr(row, 'geometry') or row.geometry is None or row.geometry.is_empty:
+                    continue
+                
+                # Ensure we have valid coordinates
+                if not hasattr(row.geometry, 'y') or not hasattr(row.geometry, 'x'):
+                    continue
+                
+                y, x = row.geometry.y, row.geometry.x
+                
+                # Skip if coordinates are NaN
+                if pd.isna(y) or pd.isna(x):
+                    continue
+                
+                # Ensure coordinates are valid numbers
+                try:
+                    y_float = float(y)
+                    x_float = float(x)
+                except (ValueError, TypeError):
+                    continue
+                
+                # Base weight is 1.0
+                weight = 1.0
+                
+                # Carefully get importance_score if available
+                if 'importance_score' in data_points.columns:
+                    try:
+                        importance = row.get('importance_score', 1.0)
+                        # Handle different data types safely
+                        if isinstance(importance, (int, float)) and not pd.isna(importance):
+                            weight = float(importance)
+                        elif isinstance(importance, str):
+                            # Try to convert string to float
+                            try:
+                                weight = float(importance)
+                            except (ValueError, TypeError):
+                                # Keep default if conversion fails
+                                pass
+                    except Exception:
+                        # Ignore any error in processing importance
+                        pass
+                
+                # Carefully get weight if available
+                if 'weight' in data_points.columns:
+                    try:
+                        w = row.get('weight', 1.0)
+                        # Handle different data types safely
+                        if isinstance(w, (int, float)) and not pd.isna(w):
+                            weight *= float(w)
+                        elif isinstance(w, str):
+                            # Try to convert string to float
+                            try:
+                                weight *= float(w)
+                            except (ValueError, TypeError):
+                                # Ignore if conversion fails
+                                pass
+                    except Exception:
+                        # Ignore any error in processing weight
+                        pass
+                
+                # Carefully get future_demand if available
+                if 'future_demand' in data_points.columns:
+                    try:
+                        demand = row.get('future_demand', 0.0)
+                        # Handle different data types safely
+                        if isinstance(demand, (int, float)) and not pd.isna(demand):
+                            weight *= (1.0 + float(demand))
+                        elif isinstance(demand, str):
+                            # Try to convert string to float
+                            try:
+                                weight *= (1.0 + float(demand))
+                            except (ValueError, TypeError):
+                                # Ignore if conversion fails
+                                pass
+                    except Exception:
+                        # Ignore any error in processing demand
+                        pass
+                
+                # Final safety check on weight - ensure it's a positive number
+                if not isinstance(weight, (int, float)) or pd.isna(weight) or weight <= 0:
+                    weight = 1.0
+                
+                # Add to heatmap data - ensure all values are float
+                heatmap_data.append([float(y_float), float(x_float), float(weight)])
+                
+            except Exception as e:
+                # Skip this point and continue with others - don't let one bad point ruin everything
+                continue
+        
+        # Add the heatmap layer if we have data and it's not empty
+        if len(heatmap_data) > 0:
+            try:
+                HeatMap(heatmap_data, 
+                       min_opacity=0.2, 
+                       radius=15, 
+                       blur=10, 
+                       gradient={0.4: 'blue', 0.65: 'lime', 0.8: 'yellow', 1: 'red'}
+                      ).add_to(m)
+            except Exception as e:
+                # If heatmap creation fails, add a simpler visualization
+                # Add a marker for each point instead
+                for point in heatmap_data:
+                    try:
+                        folium.CircleMarker(
+                            location=[point[0], point[1]],
+                            radius=5,
+                            color='red',
+                            fill=True,
+                            fill_color='red',
+                            fill_opacity=0.7
+                        ).add_to(m)
+                    except:
+                        # Skip this point if it can't be added
+                        continue
+                
+                # Add a warning marker
+                folium.Marker(
+                    location=[51.05, -114.07],
+                    popup=f"Fallback to simple markers due to heatmap error",
+                    icon=folium.Icon(color="orange", icon="info-sign")
+                ).add_to(m)
+        else:
+            # Add a marker indicating no valid data points
+            folium.Marker(
+                location=[51.05, -114.07],
+                popup="No valid data points for heatmap",
+                icon=folium.Icon(color="orange", icon="info-sign")
+            ).add_to(m)
+    
+    except Exception as e:
+        # Add a marker indicating error
+        folium.Marker(
+            location=[51.05, -114.07],
+            popup=f"Error creating heatmap: {str(e)}",
+            icon=folium.Icon(color="red", icon="info-sign")
         ).add_to(m)
     
     return m

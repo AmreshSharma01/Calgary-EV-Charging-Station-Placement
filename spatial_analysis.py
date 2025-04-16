@@ -177,6 +177,9 @@ def generate_recommendations(clustered_data, demand_data, community_points=None)
                         closest_idx = np.argmin(distances)
                         closest_demand = demand_data.iloc[closest_idx]
                         
+                        # Get income factor if available
+                        income_factor = closest_demand.get('income_factor', 1.0)
+                        
                         # Create recommendation
                         rec = {
                             'cluster_id': int(cluster_id),
@@ -184,6 +187,7 @@ def generate_recommendations(clustered_data, demand_data, community_points=None)
                             'longitude': float(top_point.geometry.x),
                             'importance_score': float(top_point.get('importance_score', 0)),
                             'future_demand': float(closest_demand.get('future_demand', 0)),
+                            'income_factor': float(income_factor),
                             'source': str(top_point.get('source', 'Unknown'))
                         }
                         
@@ -213,8 +217,9 @@ def generate_recommendations(clustered_data, demand_data, community_points=None)
         if recommendations:
             rec_df = pd.DataFrame(recommendations)
             
-            # Sort by importance and demand
-            rec_df['combined_score'] = rec_df['importance_score'] * rec_df['future_demand']
+            # Sort by importance, demand and income factor
+            # Weight income factor slightly to prioritize areas with higher income
+            rec_df['combined_score'] = rec_df['importance_score'] * rec_df['future_demand'] * (1 + 0.2 * (rec_df['income_factor'] - 1))
             rec_df = rec_df.sort_values('combined_score', ascending=False)
             
             return rec_df

@@ -166,16 +166,20 @@ def load_all_datasets(data_dir="data/"):
                                              x_column='longitude',
                                              y_column='latitude')
     
-    # Load population data - this is a demographic dataset without spatial coordinates
+    # Load population data - try the new file first, then fall back to old filename
     try:
-        population_data = pd.read_csv(f"{data_dir}calgary population dataset.csv", encoding='utf-8')
+        population_data = pd.read_csv(f"{data_dir}calgary population dataset new.csv", encoding='utf-8')
     except:
         try:
-            # Try with different encoding if utf-8 fails
-            population_data = pd.read_csv(f"{data_dir}calgary population dataset.csv", encoding='latin1')
-        except Exception as e:
-            st.warning(f"Could not load population dataset: {str(e)}")
-            population_data = None
+            # Try with the old filename if the new one doesn't exist
+            population_data = pd.read_csv(f"{data_dir}calgary population dataset.csv", encoding='utf-8')
+        except:
+            try:
+                # Try with different encoding if utf-8 fails
+                population_data = pd.read_csv(f"{data_dir}calgary population dataset new.csv", encoding='latin1')
+            except Exception as e:
+                st.warning(f"Could not load population dataset: {str(e)}")
+                population_data = None
         
     # Load road network
     road_network = load_csv_with_geometry(f"{data_dir}Major_Road_Network_2025.csv",
@@ -257,8 +261,6 @@ def prepare_combined_data(ev_stations, traffic_volumes, community_points):
             
         data_points.append(residential)
     
-# Replace the traffic data processing section in prepare_combined_data with this:
-
     # Add traffic points (if we can extract points from it)
     if traffic_volumes is not None and isinstance(traffic_volumes, gpd.GeoDataFrame):
         # For traffic data, we'll try to extract points for analysis

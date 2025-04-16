@@ -273,7 +273,7 @@ def create_octant_map(data_with_octants, octant_polygons, ev_stations=None):
 
 def create_octant_demand_chart(octant_summary):
     """
-    Create a chart showing demand by octant
+    Create a simplified chart showing demand by octant
     
     Parameters:
     -----------
@@ -289,50 +289,62 @@ def create_octant_demand_chart(octant_summary):
         # Return empty figure
         return go.Figure()
     
-    # Create radar chart for octant demand
-    fig = go.Figure()
-    
-    # Add current demand trace
-    fig.add_trace(go.Scatterpolar(
-        r=octant_summary['current_demand'],
-        theta=octant_summary['direction'],
-        fill='toself',
-        name='Current Demand',
-        line_color='#1f77b4'
-    ))
-    
-    # Add future demand trace
-    fig.add_trace(go.Scatterpolar(
-        r=octant_summary['future_demand'],
-        theta=octant_summary['direction'],
-        fill='toself',
-        name='Future Demand',
-        line_color='#ff7f0e'
-    ))
-    
-    # Update layout
-    fig.update_layout(
+    # Create a simplified bar chart for octant demand
+    # This replaces the radar chart with a more intuitive bar chart
+    fig = px.bar(
+        octant_summary,
+        x='direction',
+        y=['current_demand', 'future_demand'],
         title='EV Charging Demand by Road Network Octant',
-        polar=dict(
-            radialaxis=dict(
-                visible=True,
-                range=[0, max(octant_summary['future_demand']) * 1.1]
-            )
-        ),
+        barmode='group',
+        color_discrete_sequence=['#1f77b4', '#ff7f0e'],
+        labels={
+            'direction': 'Octant Direction',
+            'value': 'Demand',
+            'variable': 'Demand Type'
+        }
+    )
+    
+    # Update layout for better readability
+    fig.update_layout(
+        xaxis=dict(title='Octant Direction', tickangle=45),
+        yaxis=dict(title='Demand'),
         legend=dict(
+            title='',
             orientation="h",
             yanchor="bottom",
             y=1.02,
             xanchor="center",
             x=0.5
-        )
+        ),
+        height=500
     )
+    
+    # Add annotations for easier interpretation
+    annotations = []
+    for i, direction in enumerate(octant_summary['direction']):
+        # Calculate demand growth for annotation
+        current = octant_summary.iloc[i]['current_demand']
+        future = octant_summary.iloc[i]['future_demand']
+        if current > 0:
+            growth = ((future / current) - 1) * 100
+            annotations.append(
+                dict(
+                    x=direction,
+                    y=future + (future * 0.05),  # Position slightly above the bar
+                    text=f"+{growth:.1f}%",
+                    showarrow=False,
+                    font=dict(size=10, color="black")
+                )
+            )
+    
+    fig.update_layout(annotations=annotations)
     
     return fig
 
 def create_octant_station_chart(octant_summary):
     """
-    Create a chart showing existing stations by octant
+    Create a simplified chart showing existing stations by octant
     
     Parameters:
     -----------
@@ -348,28 +360,35 @@ def create_octant_station_chart(octant_summary):
         # Return empty figure
         return go.Figure()
     
-    # Create bar chart for existing stations by octant
+    # Create simplified bar chart for existing stations by octant
     fig = px.bar(
         octant_summary,
         x='direction',
         y='ev_stations',
-        color='demand_growth',
         title='EV Charging Stations by Road Network Octant',
-        labels={'direction': 'Octant', 'ev_stations': 'Number of Stations', 'demand_growth': 'Demand Growth (%)'},
-        color_continuous_scale='RdYlGn'
+        color='ev_stations',
+        text='ev_stations',  # Show the values on the bars
+        color_continuous_scale='Viridis',
+        labels={
+            'direction': 'Octant Direction',
+            'ev_stations': 'Number of Stations'
+        }
     )
     
-    # Update layout
+    # Update layout for better readability
     fig.update_layout(
-        xaxis=dict(tickangle=45),
+        xaxis=dict(title='Octant Direction', tickangle=45),
         yaxis=dict(title='Number of Stations')
     )
+    
+    # Add visible value labels on the bars
+    fig.update_traces(textposition='outside')
     
     return fig
 
 def create_octant_demand_gap_chart(octant_summary):
     """
-    Create a chart showing the gap between demand and station coverage
+    Create a simplified chart showing the gap between demand and station coverage
     
     Parameters:
     -----------
@@ -390,23 +409,29 @@ def create_octant_demand_gap_chart(octant_summary):
         lambda x: x['future_demand'] / max(x['ev_stations'], 1), axis=1
     )
     
-    # Create horizontal bar chart
+    # Sort by demand per station for better visibility
+    sorted_data = octant_summary.sort_values('demand_per_station', ascending=False)
+    
+    # Create a simple bar chart instead of horizontal bars
     fig = px.bar(
-        octant_summary.sort_values('demand_per_station', ascending=False),
-        y='direction',
-        x='demand_per_station',
-        color='demand_per_station',
+        sorted_data,
+        x='direction',
+        y='demand_per_station',
         title='Demand-to-Station Ratio by Road Network Octant',
-        labels={'direction': 'Octant', 'demand_per_station': 'Future Demand per Station'},
-        orientation='h',
-        color_continuous_scale='YlOrRd'
+        color='demand_per_station',
+        text=sorted_data['demand_per_station'].round(1),  # Show rounded values
+        color_continuous_scale='YlOrRd',
+        labels={
+            'direction': 'Octant Direction',
+            'demand_per_station': 'Future Demand per Station'
+        }
     )
     
-    # Add a vertical line for average
+    # Add a horizontal line for average
     avg_demand_per_station = octant_summary['demand_per_station'].mean()
     
-    fig.add_vline(
-        x=avg_demand_per_station,
+    fig.add_hline(
+        y=avg_demand_per_station,
         line_dash="dash",
         line_color="green",
         annotation_text="Average",
@@ -415,8 +440,11 @@ def create_octant_demand_gap_chart(octant_summary):
     
     # Update layout
     fig.update_layout(
-        xaxis=dict(title='Future Demand per Station (higher = more need)'),
-        yaxis=dict(title='')
+        xaxis=dict(title='Octant Direction', tickangle=45),
+        yaxis=dict(title='Future Demand per Station (higher = more need)')
     )
+    
+    # Make values visible
+    fig.update_traces(textposition='outside')
     
     return fig
