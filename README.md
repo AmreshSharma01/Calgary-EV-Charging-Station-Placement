@@ -2,6 +2,9 @@
 
 This application uses spatial data mining techniques to identify optimal locations for new electric vehicle (EV) charging stations in Calgary. By analyzing traffic patterns, demographics, and existing infrastructure, it provides data-driven recommendations for EV charging station placement.
 
+## Project Visual Walkthrough
+![Project Walkthrough](visual_walkthrough.png)
+
 ## Project Structure
 
 ```
@@ -128,6 +131,8 @@ For development in VS Code:
 - Change forecast period to see different future projections
 - Select different routing algorithms for route optimization
 
-## Acknowledgments
+## Team
 
-This application was developed for the ENGO645 project (Winter 2025) at the University of Calgary, using data from the City of Calgary Open Data Portal.
+- [@AmreshSharma01](https://github.com/AmreshSharma01) - Amresh Sharma (Led the project, built the demand model with income integration, developed octant analysis, and wrote core paper sections.)
+- [@NishathRuksana](https://github.com/NishathRuksana) - Nishath Ruksana (Implemented clustering, spatial analysis, and dashboard visuals; wrote background and implementation.)
+- [@Ujjal-Baniya](https://github.com/Ujjal-Baniya) - Ujjal Baniya (Developed route optimization and dashboard; handled results analysis and documentation.)
